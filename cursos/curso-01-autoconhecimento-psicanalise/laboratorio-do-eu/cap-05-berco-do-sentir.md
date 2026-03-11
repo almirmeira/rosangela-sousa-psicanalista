@@ -79,13 +79,13 @@ Responda com honestidade:
 
 **Qual é a primeira emoção que aparece?**
 
-☐ Ansiedade — algo deve ter acontecido
-☐ Raiva — por que ele(a) não está respondendo?
-☐ Tristeza — será que fiz algo errado?
-☐ Confiança tranquila — deve estar ocupado, vai responder
-☐ Indiferença — não me incomoda
-☐ Catastrofismo — imagino os piores cenários
-☐ Outra: _______________
+- ☐ Ansiedade — algo deve ter acontecido
+- ☐ Raiva — por que ele(a) não está respondendo?
+- ☐ Tristeza — será que fiz algo errado?
+- ☐ Confiança tranquila — deve estar ocupado, vai responder
+- ☐ Indiferença — não me incomoda
+- ☐ Catastrofismo — imagino os piores cenários
+- ☐ Outra: _______________
 
 ---
 

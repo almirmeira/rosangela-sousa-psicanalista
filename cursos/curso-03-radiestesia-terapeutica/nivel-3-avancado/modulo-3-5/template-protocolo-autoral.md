@@ -59,7 +59,7 @@ _______________________________________________________________
 | Parâmetro | Definição |
 |-----------|----------|
 | Duração da sessão | ____ minutos |
-| Formato | ☐ Presencial  ☐ Online  ☐ Ambos |
+| Formato | ☐ Presencial <br> ☐ Online <br> ☐ Ambos |
 | Frequência recomendada | ____________________ |
 | Número de sessões por ciclo | ____________________ |
 | Local/plataforma online | ____________________ |
@@ -133,13 +133,25 @@ _______________________________________________________________
 
 ### 3.3 Recursos de Apoio
 
-**Florais:** ☐ Uso regularmente  ☐ Uso eventualmente  ☐ Não uso
+**Florais:**
+- ☐ Uso regularmente
+- ☐ Uso eventualmente
+- ☐ Não uso
+
 *Abordagem:* _______________________________________________
 
-**Cristais:** ☐ Uso regularmente  ☐ Uso eventualmente  ☐ Não uso
+**Cristais:**
+- ☐ Uso regularmente
+- ☐ Uso eventualmente
+- ☐ Não uso
+
 *Abordagem:* _______________________________________________
 
-**Óleos essenciais:** ☐ Uso regularmente  ☐ Uso eventualmente  ☐ Não uso
+**Óleos essenciais:**
+- ☐ Uso regularmente
+- ☐ Uso eventualmente
+- ☐ Não uso
+
 *Abordagem:* _______________________________________________
 
 **Outros:** _______________________________________________

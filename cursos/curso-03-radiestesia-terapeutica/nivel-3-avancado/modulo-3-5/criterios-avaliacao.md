@@ -76,9 +76,9 @@ O Protocolo Autoral é avaliado em 5 dimensões. Cada dimensão recebe uma pontu
 
 A reflexão de 500-800 palavras sobre a jornada no curso é avaliada como:
 
-☐ **Aprovada** — Reflexiva, honesta, mostra crescimento real
-☐ **Aprovada com ajustes** — Presente mas superficial — ampliar
-☐ **Reprovada** — Insuficiente em profundidade ou extensão
+- ☐ **Aprovada** — Reflexiva, honesta, mostra crescimento real
+- ☐ **Aprovada com ajustes** — Presente mas superficial — ampliar
+- ☐ **Reprovada** — Insuficiente em profundidade ou extensão
 
 ---
 
@@ -86,9 +86,9 @@ A reflexão de 500-800 palavras sobre a jornada no curso é avaliada como:
 
 O caso clínico deve demonstrar aplicação do protocolo autoral. É avaliado como:
 
-☐ **Aprovado** — Protocolo aplicado de forma coerente e ética; linguagem adequada
-☐ **Aprovado com ajustes** — Protocolo aplicado com pequenas inconsistências
-☐ **Reprovado** — Linguagem diagnóstica; limites éticos não respeitados; protocolo ignorado
+- ☐ **Aprovado** — Protocolo aplicado de forma coerente e ética; linguagem adequada
+- ☐ **Aprovado com ajustes** — Protocolo aplicado com pequenas inconsistências
+- ☐ **Reprovado** — Linguagem diagnóstica; limites éticos não respeitados; protocolo ignorado
 
 ---
 

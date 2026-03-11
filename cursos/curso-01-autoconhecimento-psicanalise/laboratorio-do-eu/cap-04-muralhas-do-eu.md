@@ -73,16 +73,16 @@ Pense em uma **discussão, conflito ou situação de tensão recente**. Pode ser
 
 > Qual(is) mecanismo(s) você reconhece que usou nessa situação?
 
-☐ Projeção — atribuí ao outro algo que era meu
-☐ Racionalização — criei uma explicação lógica para algo emocional
-☐ Repressão — empurrei o sentimento para baixo
-☐ Negação — recusei a reconhecer algo que estava acontecendo
-☐ Deslocamento — dirigi a emoção para o alvo errado
-☐ Sublimação — transformei em algo produtivo
-☐ Intelectualização — me afastei da emoção pelo pensamento
-☐ Formação Reativa — expressei o oposto do que sentia
-☐ Regressão — voltei a um comportamento mais infantil
-☐ Outro: _______________
+- ☐ Projeção — atribuí ao outro algo que era meu
+- ☐ Racionalização — criei uma explicação lógica para algo emocional
+- ☐ Repressão — empurrei o sentimento para baixo
+- ☐ Negação — recusei a reconhecer algo que estava acontecendo
+- ☐ Deslocamento — dirigi a emoção para o alvo errado
+- ☐ Sublimação — transformei em algo produtivo
+- ☐ Intelectualização — me afastei da emoção pelo pensamento
+- ☐ Formação Reativa — expressei o oposto do que sentia
+- ☐ Regressão — voltei a um comportamento mais infantil
+- ☐ Outro: _______________
 
 ---
 

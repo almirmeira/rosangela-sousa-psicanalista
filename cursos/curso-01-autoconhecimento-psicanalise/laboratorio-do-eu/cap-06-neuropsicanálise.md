@@ -101,17 +101,17 @@ Com essa situação em mente, percorra mentalmente seu corpo de cima para baixo.
 
 **Marque as regiões onde você percebe alguma sensação:**
 
-☐ Cabeça / testa
-☐ Olhos / mandíbula
-☐ Garganta / pescoço
-☐ Ombros
-☐ Peito / coração
-☐ Braços / mãos
-☐ Estômago / plexo solar
-☐ Barriga / intestinos
-☐ Lombar / costas
-☐ Pernas / pés
-☐ Outra região: _______________
+- ☐ Cabeça / testa
+- ☐ Olhos / mandíbula
+- ☐ Garganta / pescoço
+- ☐ Ombros
+- ☐ Peito / coração
+- ☐ Braços / mãos
+- ☐ Estômago / plexo solar
+- ☐ Barriga / intestinos
+- ☐ Lombar / costas
+- ☐ Pernas / pés
+- ☐ Outra região: _______________
 
 **Descreva como essa sensação é:**
 

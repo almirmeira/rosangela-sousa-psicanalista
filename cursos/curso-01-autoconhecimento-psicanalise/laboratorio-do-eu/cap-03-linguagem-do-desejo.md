@@ -93,11 +93,11 @@ Pense em algo que você **desejou muito**, perseguiu com intensidade e finalment
 
 **Quanto tempo durou a satisfação plena?**
 
-> ☐ Horas
-> ☐ Dias
-> ☐ Semanas
-> ☐ Meses
-> ☐ A satisfação ainda está presente (se sim, note: isso é raro e precioso)
+> - ☐ Horas
+> - ☐ Dias
+> - ☐ Semanas
+> - ☐ Meses
+> - ☐ A satisfação ainda está presente (se sim, note: isso é raro e precioso)
 
 ---
 

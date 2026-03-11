@@ -119,12 +119,12 @@ Pense em **um relacionamento importante** da sua vida — atual ou passado.
 
 A partir do que Freud descreveu, marque o que mais ressoa quando você pensa nesse relacionamento:
 
-☐ Busco alguém muito parecido comigo — valores, forma de ver o mundo, estilo de vida
-☐ Busco alguém que represente quem eu quero ser
-☐ Busco alguém que cuide, sustente, proteja
-☐ Busco alguém que me admire e confirme quem eu sou
-☐ Busco alguém genuinamente diferente de mim — que me desafie e me surpreenda
-☐ Uma mistura de mais de um desses
+- ☐ Busco alguém muito parecido comigo — valores, forma de ver o mundo, estilo de vida
+- ☐ Busco alguém que represente quem eu quero ser
+- ☐ Busco alguém que cuide, sustente, proteja
+- ☐ Busco alguém que me admire e confirme quem eu sou
+- ☐ Busco alguém genuinamente diferente de mim — que me desafie e me surpreenda
+- ☐ Uma mistura de mais de um desses
 
 ---
 

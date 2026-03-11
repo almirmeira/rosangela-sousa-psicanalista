@@ -99,14 +99,14 @@ Antes de escrever, releia o que você escreveu no **Capítulo 2** — o padrão 
 
 **Esse padrão se manifesta em que áreas da sua vida?**
 
-☐ Relacionamentos amorosos
-☐ Amizades
-☐ Família de origem
-☐ Trabalho / carreira
-☐ Saúde e autocuidado
-☐ Criatividade e expressão
-☐ Finanças
-☐ Outra área: _______________
+- ☐ Relacionamentos amorosos
+- ☐ Amizades
+- ☐ Família de origem
+- ☐ Trabalho / carreira
+- ☐ Saúde e autocuidado
+- ☐ Criatividade e expressão
+- ☐ Finanças
+- ☐ Outra área: _______________
 
 ---
 
