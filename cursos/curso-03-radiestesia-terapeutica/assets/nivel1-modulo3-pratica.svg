@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E9CD"/>
+      <stop offset="100%" style="stop-color:#EDD9A3"/>
+    </linearGradient>
+    <filter id="sh3">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000030"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="580" fill="url(#bg3)"/>
+
+  <!-- Título -->
+  <rect x="0" y="0" width="900" height="60" fill="#4A0E8F" opacity="0.88"/>
+  <text x="450" y="27" font-family="Georgia, serif" font-size="20" fill="#F4E9CD" text-anchor="middle" font-weight="bold">A PRÁTICA RADIESTÉSICA — POSTURA E ESTADO MENTAL</text>
+  <text x="450" y="48" font-family="Georgia, serif" font-size="12" fill="#C9A84C" text-anchor="middle" font-style="italic">Módulo 1.3 — Primeira Prática</text>
+
+  <!-- FIGURA CENTRAL: Silhueta + postura correta -->
+  <!-- Silhueta humana estilizada sentada -->
+  <ellipse cx="200" cy="155" rx="28" ry="28" fill="#D4A373" opacity="0.85"/><!-- cabeça -->
+  <rect x="183" y="183" width="35" height="70" rx="12" fill="#D4A373" opacity="0.7"/><!-- torso -->
+  <!-- Braço direito -->
+  <line x1="218" y1="195" x2="255" y2="225" stroke="#D4A373" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <line x1="255" y1="225" x2="255" y2="255" stroke="#D4A373" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <!-- Pêndulo na mão -->
+  <line x1="255" y1="255" x2="255" y2="310" stroke="#C9A84C" stroke-width="2"/>
+  <circle cx="255" cy="325" r="15" fill="#C9A84C" filter="url(#sh3)"/>
+  <circle cx="250" cy="320" r="5" fill="white" opacity="0.3"/>
+
+  <!-- Etiquetas de postura -->
+  <line x1="230" y1="152" x2="310" y2="140" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="315" y="144" font-family="Georgia, serif" font-size="11" fill="#2D6A4F">Ombros relaxados</text>
+  <text x="315" y="157" font-family="Georgia, serif" font-size="11" fill="#2D6A4F">Respiração calma</text>
+
+  <line x1="220" y1="200" x2="310" y2="200" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="315" y="204" font-family="Georgia, serif" font-size="11" fill="#2D6A4F">Cotovelo a 90°</text>
+
+  <line x1="255" y1="270" x2="310" y2="260" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="315" y="264" font-family="Georgia, serif" font-size="11" fill="#2D6A4F">Fio entre polegar</text>
+  <text x="315" y="277" font-family="Georgia, serif" font-size="11" fill="#2D6A4F">e indicador</text>
+
+  <line x1="255" y1="325" x2="310" y2="325" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="315" y="329" font-family="Georgia, serif" font-size="11" fill="#2D6A4F">Bob oscilando livre</text>
+
+  <!-- GRÁFICO DE ESTADOS DO PÊNDULO -->
+  <rect x="520" y="78" width="355" height="460" rx="12" fill="white" opacity="0.4" stroke="#2D6A4F" stroke-width="1.5"/>
+  <text x="697" y="105" font-family="Georgia, serif" font-size="14" fill="#2D6A4F" text-anchor="middle" font-weight="bold">MOVIMENTOS E SIGNIFICADOS</text>
+
+  <!-- Movimento SIM (elíptico vertical) -->
+  <ellipse cx="597" cy="170" rx="25" ry="45" fill="none" stroke="#2D6A4F" stroke-width="2.5" stroke-dasharray="0"/>
+  <polygon points="597,125 592,140 602,140" fill="#2D6A4F"/>
+  <text x="640" y="165" font-family="Arial" font-size="13" fill="#2D6A4F" font-weight="bold">SIM</text>
+  <text x="640" y="180" font-family="Arial" font-size="10" fill="#4A0E8F">Oval vertical</text>
+  <text x="640" y="193" font-family="Arial" font-size="10" fill="#4A0E8F">↑↓ Norte-Sul</text>
+
+  <!-- Movimento NÃO (horizontal) -->
+  <ellipse cx="597" cy="280" rx="45" ry="22" fill="none" stroke="#D4A373" stroke-width="2.5"/>
+  <polygon points="552,280 565,275 565,285" fill="#D4A373"/>
+  <text x="660" y="275" font-family="Arial" font-size="13" fill="#D4A373" font-weight="bold">NÃO</text>
+  <text x="660" y="290" font-family="Arial" font-size="10" fill="#4A0E8F">Oval horizontal</text>
+  <text x="660" y="303" font-family="Arial" font-size="10" fill="#4A0E8F">↔ Leste-Oeste</text>
+
+  <!-- Movimento NEUTRO (círculo) -->
+  <circle cx="597" cy="385" r="35" fill="none" stroke="#C9A84C" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <text x="648" y="380" font-family="Arial" font-size="13" fill="#C9A84C" font-weight="bold">NEUTRO</text>
+  <text x="648" y="395" font-family="Arial" font-size="10" fill="#4A0E8F">Círculo</text>
+  <text x="648" y="408" font-family="Arial" font-size="10" fill="#4A0E8F">Sem resposta</text>
+
+  <!-- Movimento INVESTIGAÇÃO (8 deitado) -->
+  <path d="M 570 475 Q 582 455 597 475 Q 612 495 624 475" fill="none" stroke="#4A0E8F" stroke-width="2.5"/>
+  <text x="648" y="468" font-family="Arial" font-size="13" fill="#4A0E8F" font-weight="bold">PESQUISA</text>
+  <text x="648" y="483" font-family="Arial" font-size="10" fill="#4A0E8F">Figura-8</text>
+  <text x="648" y="496" font-family="Arial" font-size="10" fill="#4A0E8F">Aprofundar</text>
+
+  <!-- DIAGRAMA DE RESPIRAÇÃO (esquerda centro) -->
+  <text x="200" y="410" font-family="Georgia, serif" font-size="14" fill="#2D6A4F" text-anchor="middle" font-weight="bold">Respiração 4-4-6</text>
+  <text x="200" y="428" font-family="Georgia, serif" font-size="11" fill="#4A0E8F" text-anchor="middle" font-style="italic">para centrar antes da prática</text>
+
+  <!-- Círculo respiração -->
+  <circle cx="200" cy="490" r="55" fill="none" stroke="#C9A84C" stroke-width="2"/>
+  <!-- Arcos de fase -->
+  <path d="M 200 435 A 55 55 0 0 1 255 490" fill="none" stroke="#2D6A4F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 255 490 A 55 55 0 0 1 200 545" fill="none" stroke="#C9A84C" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 200 545 A 55 55 0 0 1 145 490" fill="none" stroke="#D4A373" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 145 490 A 55 55 0 0 1 200 435" fill="none" stroke="#4A0E8F" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="232" y="462" font-family="Arial" font-size="9" fill="#2D6A4F" font-weight="bold">Inspira</text>
+  <text x="232" y="472" font-family="Arial" font-size="9" fill="#2D6A4F">4 seg</text>
+  <text x="218" y="540" font-family="Arial" font-size="9" fill="#C9A84C" font-weight="bold">Retém</text>
+  <text x="218" y="550" font-family="Arial" font-size="9" fill="#C9A84C">4 seg</text>
+  <text x="130" y="540" font-family="Arial" font-size="9" fill="#D4A373" font-weight="bold">Expira</text>
+  <text x="130" y="550" font-family="Arial" font-size="9" fill="#D4A373">6 seg</text>
+  <text x="120" y="462" font-family="Arial" font-size="9" fill="#4A0E8F" font-weight="bold">Neutraliza</text>
+  <text x="126" y="472" font-family="Arial" font-size="9" fill="#4A0E8F">mente</text>
+
+  <!-- Rodapé -->
+  <rect x="0" y="558" width="900" height="22" fill="#4A0E8F" opacity="0.75"/>
+  <text x="450" y="573" font-family="Georgia, serif" font-size="10" fill="#F4E9CD" text-anchor="middle">Módulo 1.3 | Radiestesia Terapêutica — Do Iniciante ao Praticante | Rosangela Sousa</text>
+</svg>

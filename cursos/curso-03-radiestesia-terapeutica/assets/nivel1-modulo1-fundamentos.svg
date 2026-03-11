@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E9CD"/>
+      <stop offset="100%" style="stop-color:#EDD9A3"/>
+    </linearGradient>
+    <filter id="sh">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000025"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="580" fill="url(#bg)"/>
+
+  <!-- Título -->
+  <rect x="0" y="0" width="900" height="65" fill="#2D6A4F" opacity="0.9"/>
+  <text x="450" y="30" font-family="Georgia, serif" font-size="22" fill="#F4E9CD" text-anchor="middle" font-weight="bold">LINHA DO TEMPO DA RADIESTESIA</text>
+  <text x="450" y="52" font-family="Georgia, serif" font-size="13" fill="#C9A84C" text-anchor="middle" font-style="italic">Módulo 1.1 — Fundamentos e Desmistificação</text>
+
+  <!-- Linha do tempo horizontal -->
+  <line x1="60" y1="200" x2="840" y2="200" stroke="#2D6A4F" stroke-width="3"/>
+  <!-- Seta -->
+  <polygon points="840,194 855,200 840,206" fill="#2D6A4F"/>
+
+  <!-- Períodos -->
+  <!-- Pré-história -->
+  <circle cx="100" cy="200" r="12" fill="#C9A84C" filter="url(#sh)"/>
+  <line x1="100" y1="188" x2="100" y2="135" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="55" y="95" width="90" height="42" rx="6" fill="#2D6A4F" opacity="0.85"/>
+  <text x="100" y="113" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle" font-weight="bold">PRÉ-HISTÓRIA</text>
+  <text x="100" y="128" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle">8000 a.C.</text>
+  <text x="100" y="230" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Pinturas rupestres</text>
+  <text x="100" y="243" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">com varetas</text>
+
+  <!-- Egito Antigo -->
+  <circle cx="220" cy="200" r="12" fill="#D4A373" filter="url(#sh)"/>
+  <line x1="220" y1="212" x2="220" y2="270" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="175" y="270" width="90" height="42" rx="6" fill="#4A0E8F" opacity="0.8"/>
+  <text x="220" y="288" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle" font-weight="bold">EGITO ANTIGO</text>
+  <text x="220" y="303" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle">3000 a.C.</text>
+  <text x="220" y="185" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Faraós e</text>
+  <text x="220" y="175" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">hieróglifos</text>
+
+  <!-- China -->
+  <circle cx="340" cy="200" r="12" fill="#C9A84C" filter="url(#sh)"/>
+  <line x1="340" y1="188" x2="340" y2="135" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="295" y="95" width="90" height="42" rx="6" fill="#2D6A4F" opacity="0.85"/>
+  <text x="340" y="113" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle" font-weight="bold">CHINA ANTIGA</text>
+  <text x="340" y="128" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle">2200 a.C.</text>
+  <text x="340" y="230" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Imperador</text>
+  <text x="340" y="243" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Yu e água</text>
+
+  <!-- Idade Média -->
+  <circle cx="470" cy="200" r="12" fill="#D4A373" filter="url(#sh)"/>
+  <line x1="470" y1="212" x2="470" y2="270" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="425" y="270" width="90" height="42" rx="6" fill="#4A0E8F" opacity="0.8"/>
+  <text x="470" y="288" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle" font-weight="bold">IDADE MÉDIA</text>
+  <text x="470" y="303" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle">Séc. XV–XVI</text>
+  <text x="470" y="185" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Mineradores</text>
+  <text x="470" y="175" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">europeus</text>
+
+  <!-- Séc XIX -->
+  <circle cx="600" cy="200" r="12" fill="#C9A84C" filter="url(#sh)"/>
+  <line x1="600" y1="188" x2="600" y2="135" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="555" y="95" width="90" height="42" rx="6" fill="#2D6A4F" opacity="0.85"/>
+  <text x="600" y="113" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle" font-weight="bold">SÉC. XIX</text>
+  <text x="600" y="128" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle">Sistematização</text>
+  <text x="600" y="230" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Chevreul e</text>
+  <text x="600" y="243" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Rhabdomancia</text>
+
+  <!-- Séc XX -->
+  <circle cx="730" cy="200" r="12" fill="#D4A373" filter="url(#sh)"/>
+  <line x1="730" y1="212" x2="730" y2="270" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="685" y="270" width="90" height="42" rx="6" fill="#4A0E8F" opacity="0.8"/>
+  <text x="730" y="288" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle" font-weight="bold">SÉC. XX–XXI</text>
+  <text x="730" y="303" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle">Ciência e saúde</text>
+  <text x="730" y="185" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Terapias</text>
+  <text x="730" y="175" font-family="Georgia, serif" font-size="9" fill="#2D6A4F" text-anchor="middle">integrativas</text>
+
+  <!-- Mapa mental de hipóteses científicas (parte inferior) -->
+  <text x="450" y="355" font-family="Georgia, serif" font-size="16" fill="#2D6A4F" text-anchor="middle" font-weight="bold">HIPÓTESES EXPLICATIVAS DA RADIESTESIA</text>
+
+  <!-- Centro -->
+  <ellipse cx="450" cy="450" rx="75" ry="35" fill="#2D6A4F" opacity="0.9"/>
+  <text x="450" y="445" font-family="Arial" font-size="11" fill="#F4E9CD" text-anchor="middle" font-weight="bold">RADIESTESIA</text>
+  <text x="450" y="460" font-family="Arial" font-size="10" fill="#C9A84C" text-anchor="middle">como fenômeno</text>
+
+  <!-- Nodo 1 -->
+  <line x1="378" y1="432" x2="280" y2="410" stroke="#C9A84C" stroke-width="1.5"/>
+  <ellipse cx="240" cy="410" rx="60" ry="28" fill="#C9A84C" opacity="0.85"/>
+  <text x="240" y="406" font-family="Arial" font-size="10" fill="#2D6A4F" text-anchor="middle" font-weight="bold">Ideomotor</text>
+  <text x="240" y="420" font-family="Arial" font-size="9" fill="#2D6A4F" text-anchor="middle">Movimentos</text>
+
+  <!-- Nodo 2 -->
+  <line x1="380" y1="420" x2="285" y2="495" stroke="#D4A373" stroke-width="1.5"/>
+  <ellipse cx="248" cy="505" rx="62" ry="28" fill="#D4A373" opacity="0.85"/>
+  <text x="248" y="501" font-family="Arial" font-size="10" fill="#2D6A4F" text-anchor="middle" font-weight="bold">Eletromagn.</text>
+  <text x="248" y="515" font-family="Arial" font-size="9" fill="#2D6A4F" text-anchor="middle">Campos sutis</text>
+
+  <!-- Nodo 3 -->
+  <line x1="450" y1="415" x2="450" y2="375" stroke="#4A0E8F" stroke-width="1.5"/>
+  <ellipse cx="450" cy="365" rx="60" ry="23" fill="#4A0E8F" opacity="0.8"/>
+  <text x="450" y="361" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle" font-weight="bold">Intuição</text>
+  <text x="450" y="374" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle">Cérebro / SNA</text>
+
+  <!-- Nodo 4 -->
+  <line x1="522" y1="420" x2="618" y2="495" stroke="#C9A84C" stroke-width="1.5"/>
+  <ellipse cx="655" cy="505" rx="62" ry="28" fill="#C9A84C" opacity="0.85"/>
+  <text x="655" y="501" font-family="Arial" font-size="10" fill="#2D6A4F" text-anchor="middle" font-weight="bold">Biofotônica</text>
+  <text x="655" y="515" font-family="Arial" font-size="9" fill="#2D6A4F" text-anchor="middle">Luz celular</text>
+
+  <!-- Nodo 5 -->
+  <line x1="522" y1="432" x2="618" y2="410" stroke="#2D6A4F" stroke-width="1.5"/>
+  <ellipse cx="660" cy="410" rx="62" ry="28" fill="#2D6A4F" opacity="0.85"/>
+  <text x="660" y="406" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle" font-weight="bold">Física Quântica</text>
+  <text x="660" y="420" font-family="Arial" font-size="9" fill="#C9A84C" text-anchor="middle">Entanglement</text>
+
+  <!-- Rodapé -->
+  <rect x="0" y="558" width="900" height="22" fill="#2D6A4F" opacity="0.7"/>
+  <text x="450" y="573" font-family="Georgia, serif" font-size="10" fill="#F4E9CD" text-anchor="middle">Módulo 1.1 | Radiestesia Terapêutica — Do Iniciante ao Praticante | Rosangela Sousa</text>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E9CD"/>
+      <stop offset="100%" style="stop-color:#EDD9A3"/>
+    </linearGradient>
+    <filter id="sh5">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000028"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="620" fill="url(#bg5)"/>
+
+  <!-- Título -->
+  <rect x="0" y="0" width="900" height="60" fill="#4A0E8F" opacity="0.9"/>
+  <text x="450" y="26" font-family="Georgia, serif" font-size="19" fill="#F4E9CD" text-anchor="middle" font-weight="bold">MAPEAMENTO BIOENERGÉTICO COMPLETO</text>
+  <text x="450" y="48" font-family="Georgia, serif" font-size="12" fill="#C9A84C" text-anchor="middle" font-style="italic">Nível 3 — Módulo 3.1 | Protocolo Avançado de Avaliação</text>
+
+  <!-- FLUXOGRAMA DO PROTOCOLO -->
+  <!-- Fase 1: Anamnese -->
+  <rect x="340" y="80" width="220" height="50" rx="10" fill="#2D6A4F" opacity="0.9" filter="url(#sh5)"/>
+  <text x="450" y="101" font-family="Georgia, serif" font-size="13" fill="#F4E9CD" text-anchor="middle" font-weight="bold">FASE 1</text>
+  <text x="450" y="118" font-family="Georgia, serif" font-size="11" fill="#C9A84C" text-anchor="middle">Anamnese Radiestésica</text>
+
+  <!-- Seta para fase 2 -->
+  <line x1="450" y1="130" x2="450" y2="152" stroke="#2D6A4F" stroke-width="2"/>
+  <polygon points="445,152 455,152 450,162" fill="#2D6A4F"/>
+
+  <!-- Fase 2: Campo Áurico -->
+  <rect x="310" y="162" width="280" height="50" rx="10" fill="#C9A84C" opacity="0.9" filter="url(#sh5)"/>
+  <text x="450" y="183" font-family="Georgia, serif" font-size="13" fill="#2D6A4F" text-anchor="middle" font-weight="bold">FASE 2</text>
+  <text x="450" y="200" font-family="Georgia, serif" font-size="11" fill="#2D6A4F" text-anchor="middle">Avaliação do Campo Áurico</text>
+
+  <!-- Seta para fase 3 -->
+  <line x1="450" y1="212" x2="450" y2="232" stroke="#C9A84C" stroke-width="2"/>
+  <polygon points="445,232 455,232 450,242" fill="#C9A84C"/>
+
+  <!-- Fase 3: Chakras -->
+  <rect x="310" y="242" width="280" height="50" rx="10" fill="#4A0E8F" opacity="0.85" filter="url(#sh5)"/>
+  <text x="450" y="263" font-family="Georgia, serif" font-size="13" fill="#F4E9CD" text-anchor="middle" font-weight="bold">FASE 3</text>
+  <text x="450" y="280" font-family="Georgia, serif" font-size="11" fill="#C9A84C" text-anchor="middle">Mapeamento dos 7 Chakras</text>
+
+  <!-- Seta para fase 4 -->
+  <line x1="450" y1="292" x2="450" y2="312" stroke="#4A0E8F" stroke-width="2"/>
+  <polygon points="445,312 455,312 450,322" fill="#4A0E8F"/>
+
+  <!-- Fase 4: Bloqueios -->
+  <rect x="310" y="322" width="280" height="50" rx="10" fill="#D4A373" opacity="0.9" filter="url(#sh5)"/>
+  <text x="450" y="343" font-family="Georgia, serif" font-size="13" fill="#2D6A4F" text-anchor="middle" font-weight="bold">FASE 4</text>
+  <text x="450" y="360" font-family="Georgia, serif" font-size="11" fill="#2D6A4F" text-anchor="middle">Identificação de Bloqueios</text>
+
+  <!-- Seta para fase 5 -->
+  <line x1="450" y1="372" x2="450" y2="392" stroke="#D4A373" stroke-width="2"/>
+  <polygon points="445,392 455,392 450,402" fill="#D4A373"/>
+
+  <!-- Fase 5: Plano -->
+  <rect x="310" y="402" width="280" height="50" rx="10" fill="#2D6A4F" opacity="0.85" filter="url(#sh5)"/>
+  <text x="450" y="423" font-family="Georgia, serif" font-size="13" fill="#F4E9CD" text-anchor="middle" font-weight="bold">FASE 5</text>
+  <text x="450" y="440" font-family="Georgia, serif" font-size="11" fill="#C9A84C" text-anchor="middle">Plano Terapêutico Integrado</text>
+
+  <!-- DETALHE FASE 1 (esquerda) -->
+  <rect x="30" y="80" width="280" height="140" rx="10" fill="#2D6A4F" opacity="0.08" stroke="#2D6A4F" stroke-width="1.5"/>
+  <text x="170" y="100" font-family="Georgia, serif" font-size="12" fill="#2D6A4F" text-anchor="middle" font-weight="bold">Anamnese inclui:</text>
+  <text x="45" y="120" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Queixa principal (em palavras próprias)</text>
+  <text x="45" y="138" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Histórico emocional recente (3 meses)</text>
+  <text x="45" y="156" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Terapias em andamento</text>
+  <text x="45" y="174" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Expectativas e limites da prática</text>
+  <text x="45" y="192" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Consentimento informado</text>
+  <text x="45" y="210" font-family="Arial" font-size="10" fill="#D4A373">⚠ Encaminhar se houver crise ativa</text>
+
+  <!-- DETALHE FASE 3 (esquerda) -->
+  <rect x="30" y="242" width="280" height="130" rx="10" fill="#4A0E8F" opacity="0.06" stroke="#4A0E8F" stroke-width="1.5"/>
+  <text x="170" y="262" font-family="Georgia, serif" font-size="12" fill="#4A0E8F" text-anchor="middle" font-weight="bold">Protocolo de chakras:</text>
+  <text x="45" y="282" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Começar pelo chakra raiz (1°)</text>
+  <text x="45" y="300" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Subir sequencialmente até o 7°</text>
+  <text x="45" y="318" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Registrar tipo e amplitude do giro</text>
+  <text x="45" y="336" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Comparar com sessão anterior</text>
+  <text x="45" y="354" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Anotar padrões de bloqueio</text>
+
+  <!-- DETALHE FASE 5 (esquerda) -->
+  <rect x="30" y="402" width="280" height="130" rx="10" fill="#2D6A4F" opacity="0.06" stroke="#2D6A4F" stroke-width="1.5"/>
+  <text x="170" y="422" font-family="Georgia, serif" font-size="12" fill="#2D6A4F" text-anchor="middle" font-weight="bold">Plano inclui:</text>
+  <text x="45" y="442" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Práticas de harmonização recomendadas</text>
+  <text x="45" y="460" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Ferramentas complementares (florais, cristais)</text>
+  <text x="45" y="478" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Frequência de retorno sugerida</text>
+  <text x="45" y="496" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Encaminhamentos necessários</text>
+  <text x="45" y="514" font-family="Arial" font-size="9" fill="#D4A373">⚠ Nunca prescrever ou diagnosticar</text>
+
+  <!-- DETALHE FASE 2 (direita) -->
+  <rect x="595" y="162" width="280" height="130" rx="10" fill="#C9A84C" opacity="0.1" stroke="#C9A84C" stroke-width="1.5"/>
+  <text x="735" y="182" font-family="Georgia, serif" font-size="12" fill="#2D6A4F" text-anchor="middle" font-weight="bold">Campo Áurico:</text>
+  <text x="610" y="202" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Varredura com vareta ou pêndulo</text>
+  <text x="610" y="220" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Medir extensão (cm do corpo)</text>
+  <text x="610" y="238" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Identificar densidades e vazios</text>
+  <text x="610" y="256" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Verificar simetria L/D e ant/post</text>
+  <text x="610" y="274" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Registrar em mapa corporal</text>
+
+  <!-- DETALHE FASE 4 (direita) -->
+  <rect x="595" y="322" width="280" height="130" rx="10" fill="#D4A373" opacity="0.1" stroke="#D4A373" stroke-width="1.5"/>
+  <text x="735" y="342" font-family="Georgia, serif" font-size="12" fill="#2D6A4F" text-anchor="middle" font-weight="bold">Tipos de Bloqueios:</text>
+  <text x="610" y="362" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Emocional — medo, luto, raiva retida</text>
+  <text x="610" y="380" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Mental — crenças limitantes, padrões</text>
+  <text x="610" y="398" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Energético — ruptura de fluxo</text>
+  <text x="610" y="416" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Ancestral — padrões de campo mórfico</text>
+  <text x="610" y="434" font-family="Arial" font-size="10" fill="#4A0E8F">▸ Kármico — identificado por gráfico esp.</text>
+
+  <!-- Setas conectando detalhes ao fluxo -->
+  <line x1="310" y1="105" x2="235" y2="140" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+  <line x1="310" y1="267" x2="230" y2="305" stroke="#4A0E8F" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+  <line x1="310" y1="427" x2="230" y2="467" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+  <line x1="590" y1="187" x2="520" y2="205" stroke="#C9A84C" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+  <line x1="590" y1="347" x2="520" y2="360" stroke="#D4A373" stroke-width="1" stroke-dasharray="4,3" opacity="0.5"/>
+
+  <!-- Nota ética central -->
+  <rect x="290" y="472" width="340" height="42" rx="10" fill="#2D6A4F" opacity="0.9" filter="url(#sh5)"/>
+  <text x="460" y="490" font-family="Georgia, serif" font-size="11" fill="#C9A84C" text-anchor="middle" font-weight="bold">⚖ PRINCÍPIO ÉTICO FUNDAMENTAL</text>
+  <text x="460" y="506" font-family="Arial" font-size="10" fill="#F4E9CD" text-anchor="middle">A Radiestesia orienta — o livre-arbítrio do cliente decide.</text>
+
+  <!-- Rodapé -->
+  <rect x="0" y="597" width="900" height="23" fill="#4A0E8F" opacity="0.8"/>
+  <text x="450" y="613" font-family="Georgia, serif" font-size="10" fill="#F4E9CD" text-anchor="middle">Nível 3 — Módulo 3.1 | Radiestesia Terapêutica — Do Iniciante ao Praticante | Rosangela Sousa</text>
+</svg>
