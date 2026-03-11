@@ -1,0 +1,75 @@
+<svg viewBox="0 0 900 640" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- Fundo -->
+  <rect width="900" height="640" fill="#F4E9CD"/>
+
+  <!-- Título principal -->
+  <rect x="200" y="18" width="500" height="54" rx="12" fill="#2D6A4F"/>
+  <text x="450" y="38" text-anchor="middle" font-size="13" fill="#F4E9CD" font-weight="bold">✦ LABORATÓRIO DO EU ✦</text>
+  <text x="450" y="58" text-anchor="middle" font-size="11" fill="#D4A373">Caderno de Atividades Práticas — Autoconhecimento pela Psicanálise</text>
+
+  <!-- Círculo central -->
+  <circle cx="450" cy="340" r="62" fill="#2D6A4F" opacity="0.12"/>
+  <circle cx="450" cy="340" r="50" fill="#2D6A4F" opacity="0.18"/>
+  <circle cx="450" cy="340" r="36" fill="#2D6A4F"/>
+  <text x="450" y="334" text-anchor="middle" font-size="11" fill="#F4E9CD" font-weight="bold">SUJEITO</text>
+  <text x="450" y="350" text-anchor="middle" font-size="10" fill="#D4A373">em processo</text>
+
+  <!-- Cap 1 — topo esquerdo -->
+  <rect x="60" y="100" width="155" height="72" rx="10" fill="#2D6A4F"/>
+  <text x="137" y="122" text-anchor="middle" font-size="11" fill="#D4A373" font-weight="bold">Cap 1</text>
+  <text x="137" y="138" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">O Mapa do Tesouro</text>
+  <text x="137" y="155" text-anchor="middle" font-size="10" fill="#F4E9CD">Inconsciente</text>
+  <line x1="215" y1="136" x2="400" y2="310" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.7"/>
+
+  <!-- Cap 2 — topo centro -->
+  <rect x="330" y="90" width="155" height="72" rx="10" fill="#8B4513" opacity="0.85"/>
+  <text x="407" y="112" text-anchor="middle" font-size="11" fill="#F4E9CD" font-weight="bold">Cap 2</text>
+  <text x="407" y="128" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Teatro das Sombras</text>
+  <text x="407" y="145" text-anchor="middle" font-size="10" fill="#D4A373">Repetição</text>
+  <line x1="407" y1="162" x2="440" y2="304" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.7"/>
+
+  <!-- Cap 3 — topo direito -->
+  <rect x="685" y="100" width="155" height="72" rx="10" fill="#C9A84C"/>
+  <text x="762" y="122" text-anchor="middle" font-size="11" fill="#2D6A4F" font-weight="bold">Cap 3</text>
+  <text x="762" y="138" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">Linguagem do Desejo</text>
+  <text x="762" y="155" text-anchor="middle" font-size="10" fill="#2D6A4F">A Falta — Lacan</text>
+  <line x1="685" y1="136" x2="500" y2="310" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.7"/>
+
+  <!-- Cap 4 — meio esquerdo -->
+  <rect x="30" y="295" width="155" height="72" rx="10" fill="#D4A373"/>
+  <text x="107" y="317" text-anchor="middle" font-size="11" fill="#2D6A4F" font-weight="bold">Cap 4</text>
+  <text x="107" y="333" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">Muralhas do Eu</text>
+  <text x="107" y="350" text-anchor="middle" font-size="10" fill="#2D6A4F">Mecanismos de Defesa</text>
+  <line x1="185" y1="331" x2="414" y2="340" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.7"/>
+
+  <!-- Cap 5 — meio direito -->
+  <rect x="715" y="295" width="155" height="72" rx="10" fill="#2D6A4F"/>
+  <text x="792" y="317" text-anchor="middle" font-size="11" fill="#D4A373" font-weight="bold">Cap 5</text>
+  <text x="792" y="333" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Berço do Sentir</text>
+  <text x="792" y="350" text-anchor="middle" font-size="10" fill="#F4E9CD">Klein · Winnicott</text>
+  <line x1="715" y1="331" x2="486" y2="340" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.7"/>
+
+  <!-- Cap 6 — baixo esquerdo -->
+  <rect x="60" y="480" width="155" height="72" rx="10" fill="#1B3A4B"/>
+  <text x="137" y="502" text-anchor="middle" font-size="11" fill="#D4A373" font-weight="bold">Cap 6</text>
+  <text x="137" y="518" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Neuropsicanálise</text>
+  <text x="137" y="535" text-anchor="middle" font-size="10" fill="#F4E9CD">Cérebro &amp; Afeto</text>
+  <line x1="215" y1="516" x2="400" y2="370" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.7"/>
+
+  <!-- Cap 7 — baixo centro -->
+  <rect x="330" y="490" width="155" height="72" rx="10" fill="#6B2D8B" opacity="0.9"/>
+  <text x="407" y="512" text-anchor="middle" font-size="11" fill="#F4E9CD" font-weight="bold">Cap 7</text>
+  <text x="407" y="528" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Labirinto do Amor</text>
+  <text x="407" y="545" text-anchor="middle" font-size="10" fill="#D4A373">Narcisismo</text>
+  <line x1="407" y1="490" x2="445" y2="376" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.7"/>
+
+  <!-- Cap 8 — baixo direito -->
+  <rect x="685" y="480" width="155" height="72" rx="10" fill="#2D6A4F"/>
+  <text x="762" y="502" text-anchor="middle" font-size="11" fill="#D4A373" font-weight="bold">Cap 8</text>
+  <text x="762" y="518" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Sintoma ao Sentido</text>
+  <text x="762" y="535" text-anchor="middle" font-size="10" fill="#F4E9CD">Sublimação</text>
+  <line x1="685" y1="516" x2="500" y2="370" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.7"/>
+
+  <!-- Rodapé -->
+  <text x="450" y="625" text-anchor="middle" font-size="10" fill="#2D6A4F" opacity="0.7">Rosangela Sousa · Psicanalista, Neurocientista e Terapeuta Holística · 2026</text>
+</svg>
