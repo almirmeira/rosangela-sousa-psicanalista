@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bgM2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E9CD"/>
+      <stop offset="100%" style="stop-color:#EBD8B5"/>
+    </linearGradient>
+    <radialGradient id="selfGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:0.5"/>
+      <stop offset="70%" style="stop-color:#C9A84C;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#C9A84C;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="glow2">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#C9A84C" flood-opacity="0.4"/>
+    </filter>
+    <filter id="shadow2">
+      <feDropShadow dx="2" dy="3" stdDeviation="4" flood-color="#00000025"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#bgM2)"/>
+  <rect x="15" y="15" width="870" height="570" rx="12" fill="none" stroke="#2D6A4F" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Título -->
+  <text x="450" y="48" font-family="Georgia, serif" font-size="23" fill="#1B3A4B" text-anchor="middle" font-weight="bold">Mapa dos Arquétipos Fundamentais</text>
+  <text x="450" y="68" font-family="Arial, sans-serif" font-size="13" fill="#2D6A4F" text-anchor="middle" font-style="italic">Módulo 2 — Os Arquétipos na Psicologia Analítica de Jung</text>
+  <line x1="200" y1="78" x2="700" y2="78" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- SELF central -->
+  <circle cx="450" cy="320" r="52" fill="url(#selfGlow)" filter="url(#glow2)"/>
+  <circle cx="450" cy="320" r="42" fill="#C9A84C" opacity="0.92" filter="url(#shadow2)"/>
+  <circle cx="450" cy="320" r="34" fill="none" stroke="#FFF8E7" stroke-width="1.5" opacity="0.6"/>
+  <text x="450" y="316" font-family="Georgia, serif" font-size="15" fill="#FFF8E7" text-anchor="middle" font-weight="bold">SELF</text>
+  <text x="450" y="333" font-family="Arial, sans-serif" font-size="9" fill="#FFF8E7" text-anchor="middle">totalidade</text>
+
+  <!-- Arquétipos ao redor -->
+  <!-- O HERÓI — topo -->
+  <line x1="450" y1="278" x2="450" y2="175" stroke="#2D6A4F" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="450" cy="155" r="36" fill="#2D6A4F" opacity="0.9" filter="url(#shadow2)"/>
+  <text x="450" y="150" font-family="Arial, sans-serif" font-size="11" fill="#F4E9CD" text-anchor="middle" font-weight="bold">O HERÓI</text>
+  <text x="450" y="165" font-family="Arial, sans-serif" font-size="9" fill="#D4E8DD" text-anchor="middle">⚔ jornada</text>
+
+  <!-- GRANDE MÃE — canto sup esq -->
+  <line x1="414" y1="292" x2="285" y2="190" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="265" cy="175" r="36" fill="#D4A373" opacity="0.9" filter="url(#shadow2)"/>
+  <text x="265" y="168" font-family="Arial, sans-serif" font-size="10" fill="#FFF8E7" text-anchor="middle" font-weight="bold">GRANDE</text>
+  <text x="265" y="181" font-family="Arial, sans-serif" font-size="10" fill="#FFF8E7" text-anchor="middle">MÃE</text>
+  <text x="265" y="196" font-family="Arial, sans-serif" font-size="9" fill="#FFF8E7" text-anchor="middle">🌙 nutrir</text>
+
+  <!-- O PAI — canto sup dir -->
+  <line x1="486" y1="292" x2="615" y2="190" stroke="#1B3A4B" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="635" cy="175" r="36" fill="#1B3A4B" opacity="0.9" filter="url(#shadow2)"/>
+  <text x="635" y="168" font-family="Arial, sans-serif" font-size="11" fill="#F4E9CD" text-anchor="middle" font-weight="bold">O PAI</text>
+  <text x="635" y="181" font-family="Arial, sans-serif" font-size="9" fill="#C0D4D8" text-anchor="middle">estrutura</text>
+  <text x="635" y="194" font-family="Arial, sans-serif" font-size="9" fill="#C0D4D8" text-anchor="middle">☀ lei</text>
+
+  <!-- SOMBRA — esquerda -->
+  <line x1="408" y1="320" x2="295" y2="320" stroke="#1B3A4B" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="263" cy="320" r="36" fill="#1B3A4B" opacity="0.85" filter="url(#shadow2)"/>
+  <text x="263" y="315" font-family="Arial, sans-serif" font-size="12" fill="#F4E9CD" text-anchor="middle" font-weight="bold">SOMBRA</text>
+  <text x="263" y="330" font-family="Arial, sans-serif" font-size="9" fill="#A0BFC8" text-anchor="middle">☽ reprimido</text>
+
+  <!-- ANIMA/ANIMUS — direita -->
+  <line x1="492" y1="320" x2="607" y2="320" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="637" cy="320" r="36" fill="#C9A84C" opacity="0.88" filter="url(#shadow2)"/>
+  <text x="637" y="313" font-family="Arial, sans-serif" font-size="10" fill="#FFF8E7" text-anchor="middle" font-weight="bold">ANIMA /</text>
+  <text x="637" y="326" font-family="Arial, sans-serif" font-size="10" fill="#FFF8E7" text-anchor="middle">ANIMUS</text>
+  <text x="637" y="339" font-family="Arial, sans-serif" font-size="9" fill="#FFF8E7" text-anchor="middle">♀♂ polaridade</text>
+
+  <!-- O SÁBIO — canto inf esq -->
+  <line x1="416" y1="349" x2="290" y2="448" stroke="#2D6A4F" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="265" cy="465" r="36" fill="#2D6A4F" opacity="0.88" filter="url(#shadow2)"/>
+  <text x="265" y="460" font-family="Arial, sans-serif" font-size="11" fill="#F4E9CD" text-anchor="middle" font-weight="bold">O SÁBIO</text>
+  <text x="265" y="475" font-family="Arial, sans-serif" font-size="9" fill="#D4E8DD" text-anchor="middle">★ sabedoria</text>
+
+  <!-- TRICKSTER — canto inf dir -->
+  <line x1="484" y1="349" x2="610" y2="448" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="635" cy="465" r="36" fill="#D4A373" opacity="0.88" filter="url(#shadow2)"/>
+  <text x="635" y="458" font-family="Arial, sans-serif" font-size="10" fill="#FFF8E7" text-anchor="middle" font-weight="bold">TRICKSTER</text>
+  <text x="635" y="471" font-family="Arial, sans-serif" font-size="9" fill="#FFF8E7" text-anchor="middle">♠ transformação</text>
+
+  <!-- CRIANÇA DIVINA — baixo -->
+  <line x1="450" y1="362" x2="450" y2="455" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+  <circle cx="450" cy="477" r="36" fill="#C9A84C" opacity="0.75" stroke="#2D6A4F" stroke-width="1.5" filter="url(#shadow2)"/>
+  <text x="450" y="470" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" font-weight="bold">CRIANÇA</text>
+  <text x="450" y="483" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">DIVINA</text>
+  <text x="450" y="496" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✿ renovação</text>
+
+  <!-- EGO no lado esquerdo do diagrama -->
+  <rect x="30" y="290" width="90" height="60" rx="10" fill="#F4E9CD" stroke="#C9A84C" stroke-width="2"/>
+  <text x="75" y="316" font-family="Georgia, serif" font-size="13" fill="#1B3A4B" text-anchor="middle" font-weight="bold">EGO</text>
+  <text x="75" y="333" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">consciência</text>
+  <!-- seta EGO → SELF -->
+  <path d="M 120 320 Q 160 320 210 320" stroke="#C9A84C" stroke-width="1.5" fill="none" marker-end="url(#arrowGold)"/>
+
+  <!-- Legenda explicativa -->
+  <rect x="730" y="140" width="148" height="300" rx="10" fill="#2D6A4F" opacity="0.08" stroke="#2D6A4F" stroke-width="1" opacity="0.3"/>
+  <text x="804" y="163" font-family="Arial, sans-serif" font-size="11" fill="#1B3A4B" text-anchor="middle" font-weight="bold">LEGENDA</text>
+  <line x1="745" y1="170" x2="865" y2="170" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+
+  <circle cx="752" cy="190" r="8" fill="#2D6A4F" opacity="0.85"/>
+  <text x="766" y="194" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">Arquétipo de ação</text>
+  <circle cx="752" cy="215" r="8" fill="#D4A373" opacity="0.85"/>
+  <text x="766" y="219" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">Arquétipo de relação</text>
+  <circle cx="752" cy="240" r="8" fill="#1B3A4B" opacity="0.85"/>
+  <text x="766" y="244" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">Arquétipo de sombra</text>
+  <circle cx="752" cy="265" r="8" fill="#C9A84C" opacity="0.85"/>
+  <text x="766" y="269" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">Arquétipo de centro</text>
+
+  <line x1="745" y1="282" x2="865" y2="282" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+  <text x="804" y="298" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" font-style="italic">Todos emergem do</text>
+  <text x="804" y="312" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" font-style="italic">Inconsciente Coletivo</text>
+  <text x="804" y="332" font-family="Arial, sans-serif" font-size="10" fill="#C9A84C" text-anchor="middle" font-weight="bold">— padrões universais —</text>
+  <text x="804" y="360" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">O SELF integra</text>
+  <text x="804" y="374" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">todos os arquétipos</text>
+  <text x="804" y="388" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">na individuação</text>
+  <text x="804" y="408" font-family="Arial, sans-serif" font-size="11" fill="#C9A84C" text-anchor="middle" font-style="italic">"Quem olha para</text>
+  <text x="804" y="422" font-family="Arial, sans-serif" font-size="11" fill="#C9A84C" text-anchor="middle" font-style="italic">fora, sonha.</text>
+  <text x="804" y="436" font-family="Arial, sans-serif" font-size="11" fill="#C9A84C" text-anchor="middle" font-style="italic">Quem olha para</text>
+  <text x="804" y="450" font-family="Arial, sans-serif" font-size="11" fill="#C9A84C" text-anchor="middle" font-style="italic">dentro, acorda."</text>
+  <text x="804" y="466" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">— C.G. Jung</text>
+
+  <!-- Rodapé -->
+  <line x1="30" y1="560" x2="720" y2="560" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+  <text x="375" y="577" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" text-anchor="middle" font-style="italic">Os arquétipos não são figuras estáticas — são energias vivas que se expressam em nossas vidas</text>
+</svg>

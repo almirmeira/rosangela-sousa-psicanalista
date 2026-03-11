@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <radialGradient id="bg05" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#F4E9CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ede0c0;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="centroMind" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6B2D8B;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#6B2D8B;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#bg05)"/>
+
+  <!-- Título -->
+  <text x="450" y="38" font-family="Georgia, serif" font-size="20" fill="#1B3A4B" text-anchor="middle" font-weight="bold">RODA DAS PRÁTICAS CONTEMPLATIVAS</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="12" fill="#6B2D8B" text-anchor="middle">Módulo 5 — Mindfulness e Práticas Contemplativas</text>
+  <line x1="150" y1="68" x2="750" y2="68" stroke="#6B2D8B" stroke-width="1.5"/>
+
+  <!-- Roda central - centro -->
+  <g transform="translate(450, 320)">
+    <!-- Círculos concêntricos da roda -->
+    <circle cx="0" cy="0" r="220" fill="none" stroke="#6B2D8B" stroke-width="0.5" stroke-dasharray="3,6" opacity="0.3"/>
+    <circle cx="0" cy="0" r="175" fill="none" stroke="#2D6A4F" stroke-width="0.5" stroke-dasharray="3,6" opacity="0.3"/>
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#D4A373" stroke-width="1" opacity="0.4"/>
+
+    <!-- Raios da roda (8 práticas = 45° cada) -->
+    <line x1="0" y1="-220" x2="0" y2="220" stroke="#1B3A4B" stroke-width="0.5" opacity="0.2"/>
+    <line x1="-220" y1="0" x2="220" y2="0" stroke="#1B3A4B" stroke-width="0.5" opacity="0.2"/>
+    <line x1="-155" y1="-155" x2="155" y2="155" stroke="#1B3A4B" stroke-width="0.5" opacity="0.2"/>
+    <line x1="155" y1="-155" x2="-155" y2="155" stroke="#1B3A4B" stroke-width="0.5" opacity="0.2"/>
+
+    <!-- Centro: MINDFULNESS -->
+    <circle cx="0" cy="0" r="65" fill="url(#centroMind)" stroke="#6B2D8B" stroke-width="2"/>
+    <circle cx="0" cy="0" r="52" fill="#6B2D8B" opacity="0.15"/>
+    <text x="0" y="-8" font-family="Georgia, serif" font-size="14" fill="#6B2D8B" text-anchor="middle" font-weight="bold">MINDFULNESS</text>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Atenção Plena</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">ao Momento Presente</text>
+
+    <!-- Prática 1: Meditação Sentada (topo) -->
+    <circle cx="0" cy="-170" r="40" fill="#6B2D8B" opacity="0.15" stroke="#6B2D8B" stroke-width="1.5"/>
+    <text x="0" y="-178" font-family="Arial, sans-serif" font-size="9" fill="#6B2D8B" text-anchor="middle" font-weight="bold">MEDITAÇÃO</text>
+    <text x="0" y="-166" font-family="Arial, sans-serif" font-size="9" fill="#6B2D8B" text-anchor="middle" font-weight="bold">SENTADA</text>
+    <text x="0" y="-153" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" text-anchor="middle">Samatha · Vipassanā</text>
+
+    <!-- Prática 2: Body Scan (45°) -->
+    <circle cx="120" cy="-120" r="38" fill="#2D6A4F" opacity="0.15" stroke="#2D6A4F" stroke-width="1.5"/>
+    <text x="120" y="-128" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle" font-weight="bold">BODY SCAN</text>
+    <text x="120" y="-115" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" text-anchor="middle">Varredura corporal</text>
+
+    <!-- Prática 3: Yoga/Movimento (90°) -->
+    <circle cx="170" cy="0" r="38" fill="#C9A84C" opacity="0.15" stroke="#C9A84C" stroke-width="1.5"/>
+    <text x="170" y="-8" font-family="Arial, sans-serif" font-size="9" fill="#8B5E2F" text-anchor="middle" font-weight="bold">YOGA</text>
+    <text x="170" y="5" font-family="Arial, sans-serif" font-size="9" fill="#8B5E2F" text-anchor="middle" font-weight="bold">MINDFUL</text>
+    <text x="170" y="18" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" text-anchor="middle">Movimento pleno</text>
+
+    <!-- Prática 4: Loving-Kindness (135°) -->
+    <circle cx="120" cy="120" r="38" fill="#D4A373" opacity="0.2" stroke="#D4A373" stroke-width="1.5"/>
+    <text x="120" y="112" font-family="Arial, sans-serif" font-size="9" fill="#8B5E2F" text-anchor="middle" font-weight="bold">LOVING-</text>
+    <text x="120" y="124" font-family="Arial, sans-serif" font-size="9" fill="#8B5E2F" text-anchor="middle" font-weight="bold">KINDNESS</text>
+    <text x="120" y="137" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" text-anchor="middle">Metta · Compaixão</text>
+
+    <!-- Prática 5: Caminhada Meditativa (180°) -->
+    <circle cx="0" cy="170" r="38" fill="#1B3A4B" opacity="0.1" stroke="#1B3A4B" stroke-width="1.5"/>
+    <text x="0" y="162" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle" font-weight="bold">CAMINHADA</text>
+    <text x="0" y="175" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle" font-weight="bold">MEDITATIVA</text>
+    <text x="0" y="188" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" text-anchor="middle">Kinhin · Grounding</text>
+
+    <!-- Prática 6: Respiração (225°) -->
+    <circle cx="-120" cy="120" r="38" fill="#2D6A4F" opacity="0.12" stroke="#2D6A4F" stroke-width="1.5"/>
+    <text x="-120" y="112" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle" font-weight="bold">PRANAYAMA</text>
+    <text x="-120" y="124" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Respiração</text>
+    <text x="-120" y="137" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" text-anchor="middle">Consciente</text>
+
+    <!-- Prática 7: Escrita Contemplativa (270°) -->
+    <circle cx="-170" cy="0" r="38" fill="#6B2D8B" opacity="0.12" stroke="#6B2D8B" stroke-width="1.5"/>
+    <text x="-170" y="-8" font-family="Arial, sans-serif" font-size="9" fill="#6B2D8B" text-anchor="middle" font-weight="bold">ESCRITA</text>
+    <text x="-170" y="5" font-family="Arial, sans-serif" font-size="9" fill="#6B2D8B" text-anchor="middle">MEDITATIVA</text>
+    <text x="-170" y="18" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" text-anchor="middle">Journaling pleno</text>
+
+    <!-- Prática 8: Silêncio (315°) -->
+    <circle cx="-120" cy="-120" r="38" fill="#D4A373" opacity="0.15" stroke="#D4A373" stroke-width="1.5"/>
+    <text x="-120" y="-128" font-family="Arial, sans-serif" font-size="9" fill="#8B5E2F" text-anchor="middle" font-weight="bold">SILÊNCIO</text>
+    <text x="-120" y="-115" font-family="Arial, sans-serif" font-size="9" fill="#8B5E2F" text-anchor="middle">INTERIOR</text>
+    <text x="-120" y="-102" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" text-anchor="middle">Presença pura</text>
+  </g>
+
+  <!-- Base científica (rodapé informativo) -->
+  <rect x="85" y="530" width="730" height="45" rx="6" fill="#1B3A4B" opacity="0.06"/>
+  <text x="450" y="548" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" font-weight="bold">BASE CIENTÍFICA — Pesquisas de referência</text>
+  <text x="450" y="562" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Jon Kabat-Zinn (MBSR) · Richard Davidson (Neurociência da Meditação) · Kristin Neff (Autocompaixão) · Thich Nhat Hanh (Interbeing)</text>
+
+  <line x1="85" y1="525" x2="815" y2="525" stroke="#6B2D8B" stroke-width="1" opacity="0.3"/>
+  <text x="450" y="592" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" opacity="0.7">Formação em Terapia Holística Integrativa — Rosangela Sousa | Módulo 5</text>
+</svg>

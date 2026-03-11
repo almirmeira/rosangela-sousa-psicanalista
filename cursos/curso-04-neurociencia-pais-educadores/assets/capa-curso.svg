@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <!-- Fundo gradiente -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E9CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8F4F8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E86AB;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#2D6A4F;stop-opacity:0.15" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="600" fill="url(#bgGrad)"/>
+  <!-- Decoração lateral esquerda -->
+  <rect x="0" y="0" width="8" height="600" fill="#2E86AB"/>
+  <rect x="8" y="0" width="4" height="600" fill="#2D6A4F"/>
+  <!-- Decoração lateral direita -->
+  <rect x="888" y="0" width="8" height="600" fill="#F26419"/>
+  <rect x="884" y="0" width="4" height="600" fill="#D4A373"/>
+  <!-- Silhueta cerebro decorativa fundo -->
+  <ellipse cx="700" cy="300" rx="180" ry="150" fill="url(#brainGrad)" stroke="#2E86AB" stroke-width="1" stroke-dasharray="6,3"/>
+  <!-- Sinapses decorativas -->
+  <circle cx="680" cy="220" r="4" fill="#2E86AB" opacity="0.4" filter="url(#glow)"/>
+  <circle cx="730" cy="250" r="3" fill="#F26419" opacity="0.4" filter="url(#glow)"/>
+  <circle cx="660" cy="300" r="5" fill="#2D6A4F" opacity="0.4" filter="url(#glow)"/>
+  <circle cx="760" cy="310" r="4" fill="#D4A373" opacity="0.4" filter="url(#glow)"/>
+  <circle cx="720" cy="370" r="3" fill="#2E86AB" opacity="0.4" filter="url(#glow)"/>
+  <line x1="680" y1="220" x2="730" y2="250" stroke="#2E86AB" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="250" x2="760" y2="310" stroke="#2E86AB" stroke-width="1" opacity="0.3"/>
+  <line x1="660" y1="300" x2="730" y2="250" stroke="#2D6A4F" stroke-width="1" opacity="0.3"/>
+  <line x1="760" y1="310" x2="720" y2="370" stroke="#F26419" stroke-width="1" opacity="0.3"/>
+  <line x1="680" y1="220" x2="660" y2="300" stroke="#D4A373" stroke-width="1" opacity="0.3"/>
+  <!-- Mais sinapses -->
+  <circle cx="640" cy="260" r="3" fill="#F26419" opacity="0.3"/>
+  <circle cx="790" cy="280" r="4" fill="#2D6A4F" opacity="0.3"/>
+  <circle cx="700" cy="200" r="3" fill="#D4A373" opacity="0.3"/>
+  <line x1="640" y1="260" x2="660" y2="300" stroke="#F26419" stroke-width="1" opacity="0.25"/>
+  <line x1="790" y1="280" x2="760" y2="310" stroke="#2D6A4F" stroke-width="1" opacity="0.25"/>
+  <line x1="700" y1="200" x2="680" y2="220" stroke="#D4A373" stroke-width="1" opacity="0.25"/>
+  <!-- Bloco principal do texto -->
+  <rect x="30" y="60" width="600" height="480" rx="12" fill="white" opacity="0.85"/>
+  <!-- Barra superior colorida -->
+  <rect x="30" y="60" width="600" height="8" rx="4" fill="#2E86AB"/>
+  <!-- Ícone neurônio decorativo -->
+  <circle cx="110" cy="130" r="35" fill="#2E86AB" opacity="0.12"/>
+  <circle cx="110" cy="130" r="20" fill="#2E86AB" opacity="0.2"/>
+  <circle cx="110" cy="130" r="10" fill="#2E86AB" opacity="0.8"/>
+  <!-- Axônio estilizado -->
+  <path d="M120 130 Q160 110 190 120" stroke="#2E86AB" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M120 130 Q155 155 180 145" stroke="#2E86AB" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M100 125 Q70 100 50 110" stroke="#2E86AB" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M102 135 Q75 160 55 150" stroke="#2E86AB" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <!-- Título principal -->
+  <text x="155" y="110" font-family="Georgia, serif" font-size="13" fill="#2E86AB" font-weight="bold" letter-spacing="3">CURSO 4 • 16 HORAS</text>
+  <text x="155" y="135" font-family="Georgia, serif" font-size="26" fill="#2D6A4F" font-weight="bold">NEUROCIÊNCIA</text>
+  <text x="155" y="165" font-family="Georgia, serif" font-size="22" fill="#2D6A4F" font-weight="bold">PARA PAIS E</text>
+  <text x="155" y="195" font-family="Georgia, serif" font-size="22" fill="#2D6A4F" font-weight="bold">EDUCADORES</text>
+  <!-- Subtítulo -->
+  <text x="60" y="235" font-family="Arial, sans-serif" font-size="14" fill="#555" font-style="italic">Compreendendo o cérebro para transformar a educação</text>
+  <!-- Linha divisória decorativa -->
+  <line x1="60" y1="252" x2="590" y2="252" stroke="#D4A373" stroke-width="2"/>
+  <circle cx="60" cy="252" r="3" fill="#D4A373"/>
+  <circle cx="590" cy="252" r="3" fill="#D4A373"/>
+  <!-- Módulos -->
+  <text x="60" y="285" font-family="Arial, sans-serif" font-size="13" fill="#2E86AB" font-weight="bold">6 MÓDULOS COMPLETOS</text>
+  <!-- Cards dos módulos -->
+  <!-- Módulo 1 -->
+  <rect x="60" y="300" width="155" height="65" rx="8" fill="#2E86AB" opacity="0.1" stroke="#2E86AB" stroke-width="1.5"/>
+  <text x="68" y="318" font-family="Arial, sans-serif" font-size="9" fill="#2E86AB" font-weight="bold">MÓDULO 1</text>
+  <text x="68" y="332" font-family="Arial, sans-serif" font-size="10" fill="#333">O Cérebro em</text>
+  <text x="68" y="345" font-family="Arial, sans-serif" font-size="10" fill="#333">Desenvolvimento</text>
+  <text x="68" y="358" font-family="Arial, sans-serif" font-size="9" fill="#2E86AB">2h30 • 5 aulas</text>
+  <!-- Módulo 2 -->
+  <rect x="228" y="300" width="155" height="65" rx="8" fill="#2D6A4F" opacity="0.1" stroke="#2D6A4F" stroke-width="1.5"/>
+  <text x="236" y="318" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" font-weight="bold">MÓDULO 2</text>
+  <text x="236" y="332" font-family="Arial, sans-serif" font-size="10" fill="#333">Emoção e</text>
+  <text x="236" y="345" font-family="Arial, sans-serif" font-size="10" fill="#333">Aprendizagem</text>
+  <text x="236" y="358" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F">2h30 • 5 aulas</text>
+  <!-- Módulo 3 -->
+  <rect x="396" y="300" width="155" height="65" rx="8" fill="#F26419" opacity="0.1" stroke="#F26419" stroke-width="1.5"/>
+  <text x="404" y="318" font-family="Arial, sans-serif" font-size="9" fill="#F26419" font-weight="bold">MÓDULO 3</text>
+  <text x="404" y="332" font-family="Arial, sans-serif" font-size="10" fill="#333">Estresse, Trauma</text>
+  <text x="404" y="345" font-family="Arial, sans-serif" font-size="10" fill="#333">e o Cérebro</text>
+  <text x="404" y="358" font-family="Arial, sans-serif" font-size="9" fill="#F26419">3h • 6 aulas</text>
+  <!-- Módulo 4 -->
+  <rect x="60" y="380" width="155" height="65" rx="8" fill="#D4A373" opacity="0.15" stroke="#D4A373" stroke-width="1.5"/>
+  <text x="68" y="398" font-family="Arial, sans-serif" font-size="9" fill="#8B5E3C" font-weight="bold">MÓDULO 4</text>
+  <text x="68" y="412" font-family="Arial, sans-serif" font-size="10" fill="#333">Regulação Emocional</text>
+  <text x="68" y="425" font-family="Arial, sans-serif" font-size="10" fill="#333">e Autorregulação</text>
+  <text x="68" y="438" font-family="Arial, sans-serif" font-size="9" fill="#8B5E3C">2h • 4 aulas</text>
+  <!-- Módulo 5 -->
+  <rect x="228" y="380" width="155" height="65" rx="8" fill="#2E86AB" opacity="0.08" stroke="#2E86AB" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="236" y="398" font-family="Arial, sans-serif" font-size="9" fill="#2E86AB" font-weight="bold">MÓDULO 5</text>
+  <text x="236" y="412" font-family="Arial, sans-serif" font-size="10" fill="#333">Neuroaprendizagem</text>
+  <text x="236" y="425" font-family="Arial, sans-serif" font-size="10" fill="#333">na Prática</text>
+  <text x="236" y="438" font-family="Arial, sans-serif" font-size="9" fill="#2E86AB">3h • 6 aulas</text>
+  <!-- Módulo 6 -->
+  <rect x="396" y="380" width="155" height="65" rx="8" fill="#2D6A4F" opacity="0.08" stroke="#2D6A4F" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="404" y="398" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" font-weight="bold">MÓDULO 6</text>
+  <text x="404" y="412" font-family="Arial, sans-serif" font-size="10" fill="#333">Casos Especiais e</text>
+  <text x="404" y="425" font-family="Arial, sans-serif" font-size="10" fill="#333">Desafios Práticos</text>
+  <text x="404" y="438" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F">3h • 6 aulas</text>
+  <!-- Público-alvo -->
+  <rect x="60" y="462" width="490" height="55" rx="8" fill="#F4E9CD"/>
+  <text x="75" y="480" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" font-weight="bold">PARA QUEM É ESTE CURSO:</text>
+  <text x="75" y="498" font-family="Arial, sans-serif" font-size="10" fill="#444">Pais • Professores • Educadores • Coordenadores • Psicopedagogos • Gestores escolares</text>
+  <text x="75" y="513" font-family="Arial, sans-serif" font-size="10" fill="#444">Plataforma: Moodle Educa com Talento • Nível: Prático e Transformador</text>
+  <!-- Autora -->
+  <text x="60" y="535" font-family="Georgia, serif" font-size="12" fill="#2D6A4F" font-style="italic">Prof.ª Rosangela Sousa</text>
+  <text x="60" y="550" font-family="Arial, sans-serif" font-size="10" fill="#777">Psicanalista • Neurocientista (educação) • Terapeuta Holística</text>
+  <!-- Barra inferior -->
+  <rect x="30" y="532" width="600" height="8" rx="4" fill="#D4A373"/>
+</svg>

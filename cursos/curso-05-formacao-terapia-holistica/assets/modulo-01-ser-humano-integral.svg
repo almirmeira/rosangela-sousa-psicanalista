@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <radialGradient id="bg01" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#F4E9CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ede0c0;stop-opacity:1" />
+    </radialGradient>
+    <!-- Gradientes das camadas -->
+    <radialGradient id="cFisico" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#D4A373;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#D4A373;stop-opacity:0.4" />
+    </radialGradient>
+    <radialGradient id="cEmocional" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#C9A84C;stop-opacity:0.3" />
+    </radialGradient>
+    <radialGradient id="cMental" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2D6A4F;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#2D6A4F;stop-opacity:0.2" />
+    </radialGradient>
+    <radialGradient id="cEspiritual" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6B2D8B;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#6B2D8B;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#bg01)"/>
+
+  <!-- Título -->
+  <text x="450" y="38" font-family="Georgia, serif" font-size="20" fill="#1B3A4B" text-anchor="middle" font-weight="bold">O SER HUMANO MULTIDIMENSIONAL</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="12" fill="#2D6A4F" text-anchor="middle">Módulo 1 — Fundamentos do Ser Humano Integral</text>
+  <line x1="150" y1="68" x2="750" y2="68" stroke="#D4A373" stroke-width="1.5"/>
+
+  <!-- Centro: figura humana estilizada -->
+  <g transform="translate(450, 320)">
+    <!-- Camada espiritual (mais externa) -->
+    <ellipse cx="0" cy="-20" rx="210" ry="240" fill="url(#cEspiritual)" stroke="#6B2D8B" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <!-- Camada mental -->
+    <ellipse cx="0" cy="-10" rx="165" ry="190" fill="url(#cMental)" stroke="#2D6A4F" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <!-- Camada emocional -->
+    <ellipse cx="0" cy="0" rx="120" ry="140" fill="url(#cEmocional)" stroke="#C9A84C" stroke-width="2"/>
+    <!-- Camada física (mais interna) -->
+    <ellipse cx="0" cy="10" rx="75" ry="90" fill="url(#cFisico)" stroke="#D4A373" stroke-width="2.5"/>
+
+    <!-- Figura humana simplificada -->
+    <!-- Cabeça -->
+    <circle cx="0" cy="-60" r="18" fill="#1B3A4B" opacity="0.7"/>
+    <!-- Corpo -->
+    <line x1="0" y1="-42" x2="0" y2="20" stroke="#1B3A4B" stroke-width="3" opacity="0.7"/>
+    <!-- Braços -->
+    <line x1="-28" y1="-20" x2="28" y2="-20" stroke="#1B3A4B" stroke-width="3" opacity="0.7"/>
+    <!-- Pernas -->
+    <line x1="0" y1="20" x2="-18" y2="70" stroke="#1B3A4B" stroke-width="3" opacity="0.7"/>
+    <line x1="0" y1="20" x2="18" y2="70" stroke="#1B3A4B" stroke-width="3" opacity="0.7"/>
+
+    <!-- Chakras na figura -->
+    <circle cx="0" cy="-60" r="5" fill="#6B2D8B" opacity="0.9"/>  <!-- Coronal -->
+    <circle cx="0" cy="-48" r="4" fill="#1B3A4B" opacity="0.9"/>  <!-- Frontal -->
+    <circle cx="0" cy="-30" r="4" fill="#2D6A4F" opacity="0.9"/>  <!-- Garganta -->
+    <circle cx="0" cy="-10" r="5" fill="#2D6A4F" opacity="0.9"/> <!-- Cardíaco -->
+    <circle cx="0" cy="5" r="4" fill="#C9A84C" opacity="0.9"/>   <!-- Plexo Solar -->
+    <circle cx="0" cy="18" r="4" fill="#D4A373" opacity="0.9"/>  <!-- Sacral -->
+    <circle cx="0" cy="30" r="4" fill="#8B0000" opacity="0.7"/>  <!-- Raiz -->
+  </g>
+
+  <!-- Labels das camadas - lado direito -->
+  <!-- Espiritual -->
+  <line x1="660" y1="135" x2="610" y2="175" stroke="#6B2D8B" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="665" y="110" width="150" height="50" rx="6" fill="#6B2D8B" opacity="0.12" stroke="#6B2D8B" stroke-width="1"/>
+  <text x="740" y="130" font-family="Arial, sans-serif" font-size="12" fill="#6B2D8B" text-anchor="middle" font-weight="bold">CORPO ESPIRITUAL</text>
+  <text x="740" y="148" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Campo de consciência</text>
+  <text x="740" y="161" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Propósito e conexão</text>
+
+  <!-- Mental -->
+  <line x1="660" y1="220" x2="620" y2="260" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="665" y="200" width="150" height="50" rx="6" fill="#2D6A4F" opacity="0.1" stroke="#2D6A4F" stroke-width="1"/>
+  <text x="740" y="220" font-family="Arial, sans-serif" font-size="12" fill="#2D6A4F" text-anchor="middle" font-weight="bold">CORPO MENTAL</text>
+  <text x="740" y="238" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Pensamentos e crenças</text>
+  <text x="740" y="251" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Padrões cognitivos</text>
+
+  <!-- Emocional -->
+  <line x1="660" y1="310" x2="615" y2="330" stroke="#C9A84C" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="665" y="290" width="150" height="50" rx="6" fill="#C9A84C" opacity="0.12" stroke="#C9A84C" stroke-width="1"/>
+  <text x="740" y="310" font-family="Arial, sans-serif" font-size="12" fill="#C9A84C" text-anchor="middle" font-weight="bold">CORPO EMOCIONAL</text>
+  <text x="740" y="328" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Sentimentos e afetos</text>
+  <text x="740" y="341" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Memórias emocionais</text>
+
+  <!-- Físico -->
+  <line x1="660" y1="395" x2="535" y2="390" stroke="#D4A373" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="665" y="375" width="150" height="50" rx="6" fill="#D4A373" opacity="0.2" stroke="#D4A373" stroke-width="1.5"/>
+  <text x="740" y="395" font-family="Arial, sans-serif" font-size="12" fill="#8B5E2F" text-anchor="middle" font-weight="bold">CORPO FÍSICO</text>
+  <text x="740" y="413" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Matéria e movimento</text>
+  <text x="740" y="426" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Sintomas e sensações</text>
+
+  <!-- Labels lado esquerdo -->
+  <!-- Chakras -->
+  <rect x="85" y="100" width="150" height="280" rx="8" fill="#1B3A4B" opacity="0.06" stroke="#1B3A4B" stroke-width="1"/>
+  <text x="160" y="122" font-family="Arial, sans-serif" font-size="11" fill="#1B3A4B" text-anchor="middle" font-weight="bold">CHAKRAS PRINCIPAIS</text>
+  <line x1="120" y1="130" x2="200" y2="130" stroke="#D4A373" stroke-width="0.5"/>
+
+  <!-- Lista de chakras -->
+  <circle cx="105" cy="148" r="5" fill="#6B2D8B"/>
+  <text x="116" y="152" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B">Sahasrara (Coronal)</text>
+
+  <circle cx="105" cy="170" r="5" fill="#1B3A4B"/>
+  <text x="116" y="174" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B">Ajna (Frontal)</text>
+
+  <circle cx="105" cy="192" r="5" fill="#4169E1"/>
+  <text x="116" y="196" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B">Vishuddha (Garganta)</text>
+
+  <circle cx="105" cy="214" r="5" fill="#2D6A4F"/>
+  <text x="116" y="218" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B">Anahata (Cardíaco)</text>
+
+  <circle cx="105" cy="236" r="5" fill="#C9A84C"/>
+  <text x="116" y="240" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B">Manipura (Plexo Solar)</text>
+
+  <circle cx="105" cy="258" r="5" fill="#D4A373"/>
+  <text x="116" y="262" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B">Svadhisthana (Sacral)</text>
+
+  <circle cx="105" cy="280" r="5" fill="#8B0000"/>
+  <text x="116" y="284" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B">Muladhara (Raiz)</text>
+
+  <!-- Princípios -->
+  <text x="160" y="314" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" text-anchor="middle" font-weight="bold">PRINCÍPIO HOLÍSTICO</text>
+  <text x="160" y="330" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">"O todo é maior</text>
+  <text x="160" y="344" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">que a soma das partes"</text>
+  <text x="160" y="362" font-family="Arial, sans-serif" font-size="9" fill="#6B2D8B" text-anchor="middle" font-style="italic">— Aristóteles</text>
+
+  <!-- Rodapé -->
+  <line x1="85" y1="535" x2="815" y2="535" stroke="#D4A373" stroke-width="1" opacity="0.5"/>
+  <text x="450" y="555" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" opacity="0.7">Formação em Terapia Holística Integrativa — Rosangela Sousa | Módulo 1</text>
+</svg>

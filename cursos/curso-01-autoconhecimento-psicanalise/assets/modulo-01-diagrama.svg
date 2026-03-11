@@ -1,0 +1,122 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- Fundo creme -->
+  <rect width="800" height="600" fill="#F4E9CD"/>
+  <rect x="12" y="12" width="776" height="576" rx="14" ry="14" fill="none" stroke="#2D6A4F" stroke-width="2"/>
+
+  <!-- Título -->
+  <rect x="0" y="0" width="800" height="72" rx="14" ry="14" fill="#2D6A4F"/>
+  <rect x="0" y="58" width="800" height="16" fill="#2D6A4F"/>
+  <text x="400" y="30" text-anchor="middle" font-size="12" fill="#D4A373" letter-spacing="3">MÓDULO 1</text>
+  <text x="400" y="58" text-anchor="middle" font-size="20" fill="#F4E9CD" font-weight="bold">A História e os Fundamentos da Psicanálise</text>
+
+  <!-- Linha do tempo Freud -->
+  <text x="400" y="105" text-anchor="middle" font-size="14" fill="#2D6A4F" font-weight="bold">Linha do Tempo — A Revolução de Freud</text>
+  <line x1="80" y1="130" x2="720" y2="130" stroke="#2D6A4F" stroke-width="3"/>
+
+  <!-- Marcos -->
+  <!-- 1856 -->
+  <circle cx="110" cy="130" r="8" fill="#D4A373"/>
+  <line x1="110" y1="130" x2="110" y2="165" stroke="#D4A373" stroke-width="2"/>
+  <text x="110" y="180" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">1856</text>
+  <text x="110" y="194" text-anchor="middle" font-size="9" fill="#6B4C2A">Nasce Freud</text>
+  <text x="110" y="206" text-anchor="middle" font-size="9" fill="#6B4C2A">em Freiberg</text>
+
+  <!-- 1882 -->
+  <circle cx="220" cy="130" r="8" fill="#2D6A4F"/>
+  <line x1="220" y1="130" x2="220" y2="165" stroke="#2D6A4F" stroke-width="2"/>
+  <text x="220" y="180" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">1882</text>
+  <text x="220" y="194" text-anchor="middle" font-size="9" fill="#6B4C2A">Encontro com</text>
+  <text x="220" y="206" text-anchor="middle" font-size="9" fill="#6B4C2A">Josef Breuer</text>
+
+  <!-- 1895 -->
+  <circle cx="340" cy="130" r="8" fill="#D4A373"/>
+  <line x1="340" y1="130" x2="340" y2="165" stroke="#D4A373" stroke-width="2"/>
+  <text x="340" y="180" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">1895</text>
+  <text x="340" y="194" text-anchor="middle" font-size="9" fill="#6B4C2A">Estudos sobre</text>
+  <text x="340" y="206" text-anchor="middle" font-size="9" fill="#6B4C2A">a Histeria</text>
+
+  <!-- 1900 -->
+  <circle cx="460" cy="130" r="10" fill="#C9A84C"/>
+  <line x1="460" y1="130" x2="460" y2="165" stroke="#C9A84C" stroke-width="2"/>
+  <text x="460" y="180" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">1900</text>
+  <text x="460" y="194" text-anchor="middle" font-size="9" fill="#6B4C2A">A Interpretação</text>
+  <text x="460" y="206" text-anchor="middle" font-size="9" fill="#6B4C2A">dos Sonhos</text>
+
+  <!-- 1923 -->
+  <circle cx="590" cy="130" r="8" fill="#2D6A4F"/>
+  <line x1="590" y1="130" x2="590" y2="165" stroke="#2D6A4F" stroke-width="2"/>
+  <text x="590" y="180" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">1923</text>
+  <text x="590" y="194" text-anchor="middle" font-size="9" fill="#6B4C2A">Id, Ego</text>
+  <text x="590" y="206" text-anchor="middle" font-size="9" fill="#6B4C2A">e Superego</text>
+
+  <!-- 1939 -->
+  <circle cx="700" cy="130" r="8" fill="#D4A373"/>
+  <line x1="700" y1="130" x2="700" y2="165" stroke="#D4A373" stroke-width="2"/>
+  <text x="700" y="180" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">1939</text>
+  <text x="700" y="194" text-anchor="middle" font-size="9" fill="#6B4C2A">Morte de</text>
+  <text x="700" y="206" text-anchor="middle" font-size="9" fill="#6B4C2A">Freud (83 anos)</text>
+
+  <!-- Divisor -->
+  <line x1="60" y1="230" x2="740" y2="230" stroke="#D4A373" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- Os 3 pilares do método psicanalítico -->
+  <text x="400" y="258" text-anchor="middle" font-size="14" fill="#2D6A4F" font-weight="bold">Os 3 Pilares do Método Psicanalítico</text>
+
+  <!-- Pilar 1 — Livre Associação -->
+  <rect x="60" y="275" width="200" height="120" rx="12" ry="12" fill="#2D6A4F" opacity="0.88"/>
+  <text x="160" y="300" text-anchor="middle" font-size="11" fill="#D4A373" font-weight="bold" letter-spacing="1">PILAR 1</text>
+  <text x="160" y="320" text-anchor="middle" font-size="14" fill="#F4E9CD" font-weight="bold">Livre</text>
+  <text x="160" y="338" text-anchor="middle" font-size="14" fill="#F4E9CD" font-weight="bold">Associação</text>
+  <text x="160" y="360" text-anchor="middle" font-size="10" fill="#D4A373">Falar tudo o que</text>
+  <text x="160" y="374" text-anchor="middle" font-size="10" fill="#D4A373">vem à mente, sem</text>
+  <text x="160" y="388" text-anchor="middle" font-size="10" fill="#D4A373">censura ou filtro</text>
+
+  <!-- Seta -->
+  <line x1="260" y1="335" x2="298" y2="335" stroke="#C9A84C" stroke-width="2.5"/>
+  <polygon points="298,330 308,335 298,340" fill="#C9A84C"/>
+
+  <!-- Pilar 2 — Transferência -->
+  <rect x="308" y="275" width="184" height="120" rx="12" ry="12" fill="#D4A373" opacity="0.88"/>
+  <text x="400" y="300" text-anchor="middle" font-size="11" fill="#2D6A4F" font-weight="bold" letter-spacing="1">PILAR 2</text>
+  <text x="400" y="320" text-anchor="middle" font-size="14" fill="#2D6A4F" font-weight="bold">Transferência</text>
+  <text x="400" y="346" text-anchor="middle" font-size="10" fill="#2D6A4F">A relação paciente-</text>
+  <text x="400" y="360" text-anchor="middle" font-size="10" fill="#2D6A4F">analista como</text>
+  <text x="400" y="374" text-anchor="middle" font-size="10" fill="#2D6A4F">espelho do passado</text>
+  <text x="400" y="388" text-anchor="middle" font-size="10" fill="#2D6A4F">e dos afetos</text>
+
+  <!-- Seta -->
+  <line x1="492" y1="335" x2="530" y2="335" stroke="#C9A84C" stroke-width="2.5"/>
+  <polygon points="530,330 540,335 530,340" fill="#C9A84C"/>
+
+  <!-- Pilar 3 — Resistência -->
+  <rect x="540" y="275" width="200" height="120" rx="12" ry="12" fill="#2D6A4F" opacity="0.88"/>
+  <text x="640" y="300" text-anchor="middle" font-size="11" fill="#D4A373" font-weight="bold" letter-spacing="1">PILAR 3</text>
+  <text x="640" y="320" text-anchor="middle" font-size="14" fill="#F4E9CD" font-weight="bold">Resistência</text>
+  <text x="640" y="346" text-anchor="middle" font-size="10" fill="#D4A373">O que o sujeito</text>
+  <text x="640" y="360" text-anchor="middle" font-size="10" fill="#D4A373">evita dizer revela</text>
+  <text x="640" y="374" text-anchor="middle" font-size="10" fill="#D4A373">o que precisa</text>
+  <text x="640" y="388" text-anchor="middle" font-size="10" fill="#D4A373">ser elaborado</text>
+
+  <!-- Divisor -->
+  <line x1="60" y1="420" x2="740" y2="420" stroke="#D4A373" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- Psicanálise vs Psicologia -->
+  <text x="400" y="448" text-anchor="middle" font-size="14" fill="#2D6A4F" font-weight="bold">Psicanálise vs. Psicologia — Principais Diferenças</text>
+
+  <!-- Tabela comparativa simplificada -->
+  <rect x="60" y="460" width="300" height="110" rx="8" ry="8" fill="#2D6A4F" opacity="0.85"/>
+  <text x="210" y="482" text-anchor="middle" font-size="13" fill="#D4A373" font-weight="bold">PSICANÁLISE</text>
+  <text x="210" y="502" text-anchor="middle" font-size="10" fill="#F4E9CD">• Foco no inconsciente</text>
+  <text x="210" y="518" text-anchor="middle" font-size="10" fill="#F4E9CD">• Origem nos conflitos internos</text>
+  <text x="210" y="534" text-anchor="middle" font-size="10" fill="#F4E9CD">• Processo de longa duração</text>
+  <text x="210" y="550" text-anchor="middle" font-size="10" fill="#F4E9CD">• Escuta do desejo e da história</text>
+  <text x="210" y="565" text-anchor="middle" font-size="10" fill="#F4E9CD">• Não há diagnósticos DSM</text>
+
+  <rect x="380" y="460" width="360" height="110" rx="8" ry="8" fill="#D4A373" opacity="0.85"/>
+  <text x="560" y="482" text-anchor="middle" font-size="13" fill="#2D6A4F" font-weight="bold">PSICOLOGIA (ampla)</text>
+  <text x="560" y="502" text-anchor="middle" font-size="10" fill="#2D6A4F">• Diversas abordagens (TCC, humanismo...)</text>
+  <text x="560" y="518" text-anchor="middle" font-size="10" fill="#2D6A4F">• Foco em comportamento e cognição</text>
+  <text x="560" y="534" text-anchor="middle" font-size="10" fill="#2D6A4F">• Pode ser de curta ou longa duração</text>
+  <text x="560" y="550" text-anchor="middle" font-size="10" fill="#2D6A4F">• Técnicas variadas e mensuráveis</text>
+  <text x="560" y="565" text-anchor="middle" font-size="10" fill="#2D6A4F">• Usa classificação diagnóstica</text>
+</svg>

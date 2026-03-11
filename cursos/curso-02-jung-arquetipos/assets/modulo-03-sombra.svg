@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bgM3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E9CD"/>
+      <stop offset="100%" style="stop-color:#EBD8B5"/>
+    </linearGradient>
+    <linearGradient id="luzGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C9A84C"/>
+      <stop offset="100%" style="stop-color:#E8C86A"/>
+    </linearGradient>
+    <linearGradient id="sombraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B3A4B"/>
+      <stop offset="100%" style="stop-color:#0D2230"/>
+    </linearGradient>
+    <radialGradient id="luzRad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#FFFDE0;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#C9A84C;stop-opacity:0.3"/>
+    </radialGradient>
+    <radialGradient id="escuroRad" cx="70%" cy="70%" r="70%">
+      <stop offset="0%" style="stop-color:#1B3A4B;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0D1A22;stop-opacity:0.6"/>
+    </radialGradient>
+    <filter id="sh3">
+      <feDropShadow dx="2" dy="3" stdDeviation="5" flood-color="#00000030"/>
+    </filter>
+    <clipPath id="leftHalf">
+      <rect x="120" y="95" width="330" height="370"/>
+    </clipPath>
+    <clipPath id="rightHalf">
+      <rect x="450" y="95" width="330" height="370"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#bgM3)"/>
+  <rect x="15" y="15" width="870" height="570" rx="12" fill="none" stroke="#2D6A4F" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Título -->
+  <text x="450" y="48" font-family="Georgia, serif" font-size="24" fill="#1B3A4B" text-anchor="middle" font-weight="bold">A Sombra — O Que Escondemos de Nós Mesmos</text>
+  <text x="450" y="68" font-family="Arial, sans-serif" font-size="13" fill="#2D6A4F" text-anchor="middle" font-style="italic">Módulo 3 — Psicologia da Sombra Junguiana</text>
+  <line x1="180" y1="78" x2="720" y2="78" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Grande círculo — psique completa -->
+  <circle cx="450" cy="280" r="180" fill="none" stroke="#C9A84C" stroke-width="2.5" opacity="0.7" filter="url(#sh3)"/>
+
+  <!-- Metade esquerda — LUZ (Persona/Ego) -->
+  <path d="M 450 100 A 180 180 0 0 0 450 460 Z" fill="url(#luzRad)" opacity="0.75"/>
+
+  <!-- Metade direita — SOMBRA -->
+  <path d="M 450 100 A 180 180 0 0 1 450 460 Z" fill="url(#escuroRad)" opacity="0.75"/>
+
+  <!-- Linha divisória -->
+  <line x1="450" y1="100" x2="450" y2="460" stroke="#C9A84C" stroke-width="2" stroke-dasharray="6,3" opacity="0.8"/>
+
+  <!-- Ponto de luz (Self, pequeno círculo branco no lado escuro) -->
+  <circle cx="550" cy="280" r="18" fill="#C9A84C" opacity="0.7"/>
+  <text x="550" y="285" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle" font-weight="bold">ouro</text>
+
+  <!-- Ponto de sombra (no lado claro) -->
+  <circle cx="350" cy="280" r="18" fill="#1B3A4B" opacity="0.6"/>
+  <text x="350" y="285" font-family="Arial, sans-serif" font-size="8" fill="#F4E9CD" text-anchor="middle">reprim.</text>
+
+  <!-- EGO/PERSONA label no lado claro -->
+  <text x="350" y="175" font-family="Georgia, serif" font-size="16" fill="#1B3A4B" text-anchor="middle" font-weight="bold" opacity="0.85">EGO</text>
+  <text x="350" y="195" font-family="Georgia, serif" font-size="14" fill="#1B3A4B" text-anchor="middle" opacity="0.75">PERSONA</text>
+  <text x="350" y="215" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" text-anchor="middle" opacity="0.8">o que mostramos</text>
+
+  <!-- SOMBRA label no lado escuro -->
+  <text x="545" y="175" font-family="Georgia, serif" font-size="18" fill="#F4E9CD" text-anchor="middle" font-weight="bold" opacity="0.9">SOMBRA</text>
+  <text x="545" y="195" font-family="Arial, sans-serif" font-size="11" fill="#C5D8E0" text-anchor="middle" opacity="0.85">o que escondemos</text>
+
+  <!-- Conteúdos no lado claro -->
+  <text x="350" y="235" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">• valores conscientes</text>
+  <text x="350" y="252" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">• virtudes aprovadas</text>
+  <text x="350" y="269" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">• papéis sociais</text>
+  <text x="350" y="316" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">• pensamentos aceitos</text>
+  <text x="350" y="333" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">• emoções validadas</text>
+
+  <!-- Conteúdos no lado escuro -->
+  <text x="545" y="225" font-family="Arial, sans-serif" font-size="10" fill="#D4E8DD" text-anchor="middle">• impulsos reprimidos</text>
+  <text x="545" y="242" font-family="Arial, sans-serif" font-size="10" fill="#D4E8DD" text-anchor="middle">• talentos bloqueados</text>
+  <text x="545" y="259" font-family="Arial, sans-serif" font-size="10" fill="#D4E8DD" text-anchor="middle">• raiva não expressa</text>
+  <text x="545" y="316" font-family="Arial, sans-serif" font-size="10" fill="#D4E8DD" text-anchor="middle">• criatividade suprimida</text>
+  <text x="545" y="333" font-family="Arial, sans-serif" font-size="10" fill="#D4E8DD" text-anchor="middle">• necessidades negadas</text>
+  <text x="545" y="350" font-family="Arial, sans-serif" font-size="10" fill="#D4E8DD" text-anchor="middle">• potencial inexplorado</text>
+
+  <!-- Processo de integração — seta circular -->
+  <path d="M 480 460 Q 450 490 420 460" stroke="#C9A84C" stroke-width="2" fill="none" marker-end="url(#arr)" opacity="0.8"/>
+  <text x="450" y="505" font-family="Georgia, serif" font-size="13" fill="#2D6A4F" text-anchor="middle" font-weight="bold">INTEGRAÇÃO DA SOMBRA</text>
+  <text x="450" y="522" font-family="Arial, sans-serif" font-size="11" fill="#1B3A4B" text-anchor="middle" font-style="italic">"Não há luz sem sombra, e não há totalidade psíquica sem imperfeição." — Jung</text>
+
+  <!-- Painel direito: processo de projeção -->
+  <rect x="710" y="95" width="170" height="285" rx="10" fill="#1B3A4B" opacity="0.08" stroke="#1B3A4B" stroke-width="1" opacity="0.3"/>
+  <text x="795" y="118" font-family="Arial, sans-serif" font-size="11" fill="#1B3A4B" text-anchor="middle" font-weight="bold">PROJEÇÃO</text>
+  <text x="795" y="133" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle" font-style="italic">Como a Sombra age</text>
+  <line x1="722" y1="140" x2="868" y2="140" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+
+  <text x="722" y="160" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">1. Não aceito em mim</text>
+  <text x="722" y="178" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">2. Projeto no outro</text>
+  <text x="722" y="196" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">3. Irritação intensa</text>
+  <text x="722" y="214" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">4. Conflito externo</text>
+  <text x="722" y="232" font-family="Arial, sans-serif" font-size="10" fill="#C9A84C">→ Pista da Sombra!</text>
+
+  <text x="722" y="260" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" font-weight="bold">Sinais de Sombra:</text>
+  <text x="722" y="278" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">• reações exageradas</text>
+  <text x="722" y="295" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">• julgamentos rápidos</text>
+  <text x="722" y="312" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">• padrões repetitivos</text>
+  <text x="722" y="329" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">• sonhos perturbadores</text>
+  <text x="722" y="346" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">• inveja e comparação</text>
+  <text x="722" y="363" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F">• autoboicote</text>
+
+  <!-- Painel esquerdo: ouro da sombra -->
+  <rect x="30" y="95" width="80" height="285" rx="10" fill="#C9A84C" opacity="0.10" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+  <text x="70" y="118" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" font-weight="bold">O OURO</text>
+  <text x="70" y="132" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">da Sombra</text>
+  <line x1="35" y1="140" x2="105" y2="140" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+  <text x="70" y="160" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Criatividade</text>
+  <text x="70" y="178" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Vitalidade</text>
+  <text x="70" y="196" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Autenticidade</text>
+  <text x="70" y="214" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Empoderamento</text>
+  <text x="70" y="232" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Cura interior</text>
+  <text x="70" y="250" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Compaixão</text>
+  <text x="70" y="268" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle">Totalidade</text>
+
+  <!-- Rodapé -->
+  <line x1="30" y1="558" x2="870" y2="558" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+  <text x="450" y="578" font-family="Georgia, serif" font-size="12" fill="#2D6A4F" text-anchor="middle" font-style="italic">"A Sombra é 90% ouro puro." — Marie-Louise von Franz</text>
+</svg>

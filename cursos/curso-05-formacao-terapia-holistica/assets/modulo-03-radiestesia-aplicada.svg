@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <radialGradient id="bg03" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#F4E9CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ede0c0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#bg03)"/>
+
+  <!-- Título -->
+  <text x="450" y="38" font-family="Georgia, serif" font-size="20" fill="#1B3A4B" text-anchor="middle" font-weight="bold">RADIESTESIA TERAPÊUTICA APLICADA</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="12" fill="#D4A373" text-anchor="middle">Módulo 3 — Instrumentos, Gráficos e Integração Clínica</text>
+  <line x1="150" y1="68" x2="750" y2="68" stroke="#D4A373" stroke-width="1.5"/>
+
+  <!-- Pêndulo desenhado -->
+  <g transform="translate(450, 280)">
+    <!-- Fio do pêndulo -->
+    <line x1="0" y1="-160" x2="25" y2="-30" stroke="#1B3A4B" stroke-width="1.5"/>
+    <!-- Ponto de sustentação -->
+    <circle cx="0" cy="-165" r="5" fill="#C9A84C" stroke="#1B3A4B" stroke-width="1"/>
+    <!-- Corpo do pêndulo -->
+    <polygon points="25,-30 15,10 25,20 35,10" fill="#C9A84C" stroke="#8B5E2F" stroke-width="1"/>
+
+    <!-- Ondas de radiação do pêndulo -->
+    <ellipse cx="25" cy="15" rx="20" ry="8" fill="none" stroke="#D4A373" stroke-width="1" opacity="0.5" stroke-dasharray="3,3"/>
+    <ellipse cx="25" cy="15" rx="35" ry="14" fill="none" stroke="#D4A373" stroke-width="0.8" opacity="0.4" stroke-dasharray="3,4"/>
+    <ellipse cx="25" cy="15" rx="52" ry="20" fill="none" stroke="#D4A373" stroke-width="0.6" opacity="0.3" stroke-dasharray="4,5"/>
+  </g>
+
+  <!-- Gráfico Radiestésico circular - lado esquerdo -->
+  <g transform="translate(210, 310)">
+    <text x="0" y="-175" font-family="Arial, sans-serif" font-size="11" fill="#1B3A4B" text-anchor="middle" font-weight="bold">GRÁFICO DE CHAKRAS</text>
+    <!-- Círculo base do gráfico -->
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#1B3A4B" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#1B3A4B" stroke-width="0.8" stroke-dasharray="3,3"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#1B3A4B" stroke-width="0.5" stroke-dasharray="2,4"/>
+
+    <!-- Divisões do gráfico (7 chakras = 51,4° cada) -->
+    <!-- Linha divisória 1 -->
+    <line x1="0" y1="-140" x2="0" y2="140" stroke="#1B3A4B" stroke-width="0.8" opacity="0.4"/>
+    <line x1="-140" y1="0" x2="140" y2="0" stroke="#1B3A4B" stroke-width="0.8" opacity="0.4"/>
+    <line x1="-99" y1="-99" x2="99" y2="99" stroke="#1B3A4B" stroke-width="0.5" opacity="0.3"/>
+    <line x1="99" y1="-99" x2="-99" y2="99" stroke="#1B3A4B" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Setores coloridos dos chakras -->
+    <!-- Muladhara - Raiz (vermelho) 0-51° -->
+    <path d="M 0 0 L 0 -140 A 140 140 0 0 1 119 -73 Z" fill="#8B0000" opacity="0.25"/>
+    <text x="60" y="-85" font-family="Arial, sans-serif" font-size="8" fill="#8B0000" font-weight="bold">RAIZ</text>
+
+    <!-- Svadhisthana - Sacral (laranja) 51-102° -->
+    <path d="M 0 0 L 119 -73 A 140 140 0 0 1 140 0 Z" fill="#D4A373" opacity="0.3"/>
+    <text x="118" y="-25" font-family="Arial, sans-serif" font-size="8" fill="#8B5E2F" font-weight="bold">SACRAL</text>
+
+    <!-- Manipura - Plexo Solar (amarelo) 102-153° -->
+    <path d="M 0 0 L 140 0 A 140 140 0 0 1 119 73 Z" fill="#C9A84C" opacity="0.3"/>
+    <text x="118" y="55" font-family="Arial, sans-serif" font-size="8" fill="#8B5E2F" font-weight="bold">PLEXO</text>
+
+    <!-- Anahata - Cardíaco (verde) 153-204° -->
+    <path d="M 0 0 L 119 73 A 140 140 0 0 1 0 140 Z" fill="#2D6A4F" opacity="0.25"/>
+    <text x="52" y="125" font-family="Arial, sans-serif" font-size="8" fill="#2D6A4F" font-weight="bold">CARDÍACO</text>
+
+    <!-- Vishuddha - Garganta (azul) 204-255° -->
+    <path d="M 0 0 L 0 140 A 140 140 0 0 1 -119 73 Z" fill="#1B3A4B" opacity="0.2"/>
+    <text x="-82" y="110" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" font-weight="bold">GARGANTA</text>
+
+    <!-- Ajna - Frontal (anil) 255-306° -->
+    <path d="M 0 0 L -119 73 A 140 140 0 0 1 -140 0 Z" fill="#1B3A4B" opacity="0.3"/>
+    <text x="-135" y="25" font-family="Arial, sans-serif" font-size="8" fill="#1B3A4B" font-weight="bold">FRONTAL</text>
+
+    <!-- Sahasrara - Coronal (violeta) 306-360° -->
+    <path d="M 0 0 L -140 0 A 140 140 0 0 1 0 -140 Z" fill="#6B2D8B" opacity="0.2"/>
+    <text x="-85" y="-90" font-family="Arial, sans-serif" font-size="8" fill="#6B2D8B" font-weight="bold">CORONAL</text>
+
+    <!-- Centro do gráfico -->
+    <circle cx="0" cy="0" r="12" fill="#C9A84C" opacity="0.8"/>
+    <text x="0" y="4" font-family="Arial, sans-serif" font-size="7" fill="#1B3A4B" text-anchor="middle" font-weight="bold">0</text>
+
+    <!-- Escala de intensidade -->
+    <text x="-60" y="-108" font-family="Arial, sans-serif" font-size="7" fill="#1B3A4B" opacity="0.6">25%</text>
+    <text x="-100" y="-5" font-family="Arial, sans-serif" font-size="7" fill="#1B3A4B" opacity="0.6">75%</text>
+    <text x="-140" y="-5" font-family="Arial, sans-serif" font-size="7" fill="#1B3A4B" opacity="0.6">100%</text>
+  </g>
+
+  <!-- Legenda / Instruções lado direito -->
+  <g transform="translate(620, 160)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="13" fill="#1B3A4B" font-weight="bold">COMO USAR O GRÁFICO</text>
+    <line x1="0" y1="8" x2="240" y2="8" stroke="#D4A373" stroke-width="1"/>
+
+    <!-- Passo 1 -->
+    <rect x="0" y="18" width="240" height="55" rx="5" fill="#D4A373" opacity="0.12"/>
+    <text x="10" y="35" font-family="Arial, sans-serif" font-size="10" fill="#8B5E2F" font-weight="bold">PASSO 1 — Calibração</text>
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">Segure o pêndulo sobre o centro</text>
+    <text x="10" y="63" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">e faça a pergunta de referência</text>
+
+    <!-- Passo 2 -->
+    <rect x="0" y="82" width="240" height="55" rx="5" fill="#C9A84C" opacity="0.12"/>
+    <text x="10" y="99" font-family="Arial, sans-serif" font-size="10" fill="#8B5E2F" font-weight="bold">PASSO 2 — Intenção</text>
+    <text x="10" y="114" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">Formule a pergunta com clareza:</text>
+    <text x="10" y="127" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">"Qual a vitalidade do chakra X?"</text>
+
+    <!-- Passo 3 -->
+    <rect x="0" y="146" width="240" height="55" rx="5" fill="#2D6A4F" opacity="0.1"/>
+    <text x="10" y="163" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" font-weight="bold">PASSO 3 — Leitura</text>
+    <text x="10" y="178" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">Observe a direção e amplitude</text>
+    <text x="10" y="191" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">do movimento do pêndulo</text>
+
+    <!-- Passo 4 -->
+    <rect x="0" y="210" width="240" height="55" rx="5" fill="#6B2D8B" opacity="0.1"/>
+    <text x="10" y="227" font-family="Arial, sans-serif" font-size="10" fill="#6B2D8B" font-weight="bold">PASSO 4 — Registro e Integração</text>
+    <text x="10" y="242" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">Anote os resultados e integre</text>
+    <text x="10" y="255" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">com a anamnese psicoemocional</text>
+
+    <!-- Aviso ético -->
+    <rect x="0" y="278" width="240" height="65" rx="5" fill="#1B3A4B" opacity="0.08" stroke="#1B3A4B" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="10" y="296" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" font-weight="bold">⚠ ATENÇÃO ÉTICA</text>
+    <text x="10" y="311" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">A radiestesia é uma ferramenta</text>
+    <text x="10" y="324" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">complementar. Nunca substitui</text>
+    <text x="10" y="337" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B">diagnóstico médico profissional.</text>
+  </g>
+
+  <!-- Rodapé -->
+  <line x1="85" y1="570" x2="815" y2="570" stroke="#D4A373" stroke-width="1" opacity="0.5"/>
+  <text x="450" y="588" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" opacity="0.7">Formação em Terapia Holística Integrativa — Rosangela Sousa | Módulo 3</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- Fundo creme -->
+  <rect width="800" height="600" fill="#F4E9CD"/>
+  <rect x="12" y="12" width="776" height="576" rx="14" ry="14" fill="none" stroke="#2D6A4F" stroke-width="2"/>
+
+  <!-- Título -->
+  <rect x="0" y="0" width="800" height="72" rx="14" ry="14" fill="#2D6A4F"/>
+  <rect x="0" y="58" width="800" height="16" fill="#2D6A4F"/>
+  <text x="400" y="30" text-anchor="middle" font-size="12" fill="#D4A373" letter-spacing="3">MÓDULO 3</text>
+  <text x="400" y="58" text-anchor="middle" font-size="20" fill="#F4E9CD" font-weight="bold">O Inconsciente em Ação — 5 Manifestações</text>
+
+  <!-- Círculo central do inconsciente -->
+  <circle cx="400" cy="290" r="70" fill="#2D6A4F" opacity="0.15"/>
+  <circle cx="400" cy="290" r="50" fill="#2D6A4F" opacity="0.3"/>
+  <circle cx="400" cy="290" r="32" fill="#2D6A4F" opacity="0.85"/>
+  <text x="400" y="284" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">INCONS-</text>
+  <text x="400" y="300" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">CIENTE</text>
+
+  <!-- 5 manifestações como satélites -->
+
+  <!-- 1 — Atos Falhos (topo esquerdo) -->
+  <circle cx="195" cy="165" r="55" fill="#D4A373" opacity="0.82"/>
+  <text x="195" y="155" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">ATOS</text>
+  <text x="195" y="170" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">FALHOS</text>
+  <text x="195" y="188" text-anchor="middle" font-size="9" fill="#2D6A4F">lapsos, esquecimentos</text>
+  <text x="195" y="200" text-anchor="middle" font-size="9" fill="#2D6A4F">atos acidentais</text>
+  <line x1="243" y1="190" x2="340" y2="248" stroke="#C9A84C" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- 2 — Sonhos (topo direito) -->
+  <circle cx="605" cy="165" r="55" fill="#2D6A4F" opacity="0.82"/>
+  <text x="605" y="155" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">SONHOS</text>
+  <text x="605" y="173" text-anchor="middle" font-size="9" fill="#D4A373">via régia do</text>
+  <text x="605" y="186" text-anchor="middle" font-size="9" fill="#D4A373">inconsciente</text>
+  <text x="605" y="200" text-anchor="middle" font-size="9" fill="#D4A373">conteúdo manifesto</text>
+  <line x1="557" y1="190" x2="460" y2="248" stroke="#C9A84C" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- 3 — Sintomas (esquerda meio) -->
+  <circle cx="138" cy="310" r="55" fill="#C9A84C" opacity="0.78"/>
+  <text x="138" y="300" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">SINTO-</text>
+  <text x="138" y="316" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">MAS</text>
+  <text x="138" y="334" text-anchor="middle" font-size="9" fill="#2D6A4F">o corpo que fala</text>
+  <text x="138" y="347" text-anchor="middle" font-size="9" fill="#2D6A4F">somatizações</text>
+  <line x1="193" y1="310" x2="350" y2="290" stroke="#C9A84C" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- 4 — Repetição (direita meio) -->
+  <circle cx="662" cy="310" r="55" fill="#D4A373" opacity="0.82"/>
+  <text x="662" y="300" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">REPE-</text>
+  <text x="662" y="316" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">TIÇÃO</text>
+  <text x="662" y="334" text-anchor="middle" font-size="9" fill="#2D6A4F">compulsão</text>
+  <text x="662" y="347" text-anchor="middle" font-size="9" fill="#2D6A4F">padrões que voltam</text>
+  <line x1="607" y1="310" x2="450" y2="290" stroke="#C9A84C" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- 5 — Transferência (baixo) -->
+  <circle cx="400" cy="460" r="55" fill="#2D6A4F" opacity="0.82"/>
+  <text x="400" y="450" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">TRANS-</text>
+  <text x="400" y="466" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">FERÊNCIA</text>
+  <text x="400" y="484" text-anchor="middle" font-size="9" fill="#D4A373">o passado no presente</text>
+  <text x="400" y="497" text-anchor="middle" font-size="9" fill="#D4A373">projeções afetivas</text>
+  <line x1="400" y1="405" x2="400" y2="360" stroke="#C9A84C" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Legenda -->
+  <line x1="44" y1="535" x2="756" y2="535" stroke="#D4A373" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="400" y="556" text-anchor="middle" font-size="11" fill="#2D6A4F" font-style="italic">"O inconsciente não dorme — ele trabalha enquanto você dorme." — Rosangela Sousa</text>
+  <text x="400" y="574" text-anchor="middle" font-size="10" fill="#6B4C2A">Módulo 3 | Curso: Autoconhecimento pela Psicanálise | Rosangela Sousa</text>
+</svg>

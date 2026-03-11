@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <linearGradient id="bgM2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4E9CD;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2E86AB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2D6A4F"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F26419"/>
+    </marker>
+  </defs>
+  <rect width="900" height="600" fill="url(#bgM2)"/>
+
+  <!-- Título -->
+  <rect x="20" y="15" width="860" height="55" rx="10" fill="#2D6A4F"/>
+  <text x="450" y="38" font-family="Georgia, serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold" letter-spacing="2">MÓDULO 2 — EMOÇÃO E APRENDIZAGEM</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="11" fill="#E8F4F8" text-anchor="middle">A conexão entre sentir e aprender • Prof.ª Rosangela Sousa</text>
+
+  <!-- ===== DIAGRAMA CENTRAL: EMOÇÃO ↔ APRENDIZAGEM ===== -->
+  <!-- Bloco EMOÇÃO -->
+  <rect x="40" y="95" width="220" height="180" rx="15" fill="#F26419" opacity="0.15" stroke="#F26419" stroke-width="2.5"/>
+  <rect x="40" y="95" width="220" height="40" rx="10" fill="#F26419"/>
+  <text x="150" y="112" font-family="Georgia, serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">EMOÇÃO</text>
+  <text x="150" y="128" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Sistema Límbico</text>
+  <!-- Itens emoção -->
+  <text x="55" y="155" font-family="Arial, sans-serif" font-size="11" fill="#8B2500">• Amígdala (alarme emocional)</text>
+  <text x="55" y="172" font-family="Arial, sans-serif" font-size="11" fill="#8B2500">• Hipocampo (memória)</text>
+  <text x="55" y="189" font-family="Arial, sans-serif" font-size="11" fill="#8B2500">• Hipotálamo (regulação)</text>
+  <text x="55" y="206" font-family="Arial, sans-serif" font-size="11" fill="#8B2500">• Cíngulo anterior</text>
+  <text x="55" y="223" font-family="Arial, sans-serif" font-size="11" fill="#8B2500">• Neurônios-espelho</text>
+  <text x="55" y="255" font-family="Arial, sans-serif" font-size="10" fill="#555" font-style="italic">"Sentir para aprender"</text>
+
+  <!-- Seta bidirecional central -->
+  <line x1="265" y1="185" x2="385" y2="185" stroke="#2E86AB" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <line x1="385" y1="205" x2="265" y2="205" stroke="#F26419" stroke-width="3" marker-end="url(#arrowOrange)"/>
+  <text x="325" y="180" font-family="Arial, sans-serif" font-size="9" fill="#2E86AB" text-anchor="middle" font-weight="bold">ATIVA</text>
+  <text x="325" y="222" font-family="Arial, sans-serif" font-size="9" fill="#F26419" text-anchor="middle" font-weight="bold">CONSOLIDA</text>
+
+  <!-- Bloco APRENDIZAGEM -->
+  <rect x="390" y="95" width="220" height="180" rx="15" fill="#2E86AB" opacity="0.12" stroke="#2E86AB" stroke-width="2.5"/>
+  <rect x="390" y="95" width="220" height="40" rx="10" fill="#2E86AB"/>
+  <text x="500" y="112" font-family="Georgia, serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">APRENDIZAGEM</text>
+  <text x="500" y="128" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Córtex + Hipocampo</text>
+  <!-- Itens aprendizagem -->
+  <text x="405" y="155" font-family="Arial, sans-serif" font-size="11" fill="#1A4A6A">• Atenção seletiva</text>
+  <text x="405" y="172" font-family="Arial, sans-serif" font-size="11" fill="#1A4A6A">• Codificação da informação</text>
+  <text x="405" y="189" font-family="Arial, sans-serif" font-size="11" fill="#1A4A6A">• Consolidação na memória</text>
+  <text x="405" y="206" font-family="Arial, sans-serif" font-size="11" fill="#1A4A6A">• Evocação e aplicação</text>
+  <text x="405" y="223" font-family="Arial, sans-serif" font-size="11" fill="#1A4A6A">• Transferência de contexto</text>
+  <text x="405" y="255" font-family="Arial, sans-serif" font-size="10" fill="#555" font-style="italic">"Aprender para sentir sentido"</text>
+
+  <!-- DOPAMINA -->
+  <rect x="640" y="95" width="240" height="180" rx="15" fill="#2D6A4F" opacity="0.12" stroke="#2D6A4F" stroke-width="2.5"/>
+  <rect x="640" y="95" width="240" height="40" rx="10" fill="#2D6A4F"/>
+  <text x="760" y="112" font-family="Georgia, serif" font-size="13" fill="white" text-anchor="middle" font-weight="bold">NEUROTRANSMISSORES</text>
+  <text x="760" y="128" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">A química da aprendizagem</text>
+  <text x="655" y="155" font-family="Arial, sans-serif" font-size="11" fill="#1A4A2F" font-weight="bold">🔵 Dopamina:</text>
+  <text x="655" y="168" font-family="Arial, sans-serif" font-size="10" fill="#333">motivação, prazer, recompensa</text>
+  <text x="655" y="185" font-family="Arial, sans-serif" font-size="11" fill="#8B2500" font-weight="bold">🔴 Cortisol (estresse):</text>
+  <text x="655" y="198" font-family="Arial, sans-serif" font-size="10" fill="#333">bloqueia memória e atenção</text>
+  <text x="655" y="215" font-family="Arial, sans-serif" font-size="11" fill="#1A4A6A" font-weight="bold">⚡ Noradrenalina:</text>
+  <text x="655" y="228" font-family="Arial, sans-serif" font-size="10" fill="#333">alerta, foco, atenção</text>
+  <text x="655" y="245" font-family="Arial, sans-serif" font-size="11" fill="#5D3A6A" font-weight="bold">💚 Serotonina:</text>
+  <text x="655" y="258" font-family="Arial, sans-serif" font-size="10" fill="#333">bem-estar, calma, confiança</text>
+
+  <!-- ===== NEURÔNIO ESPELHO ===== -->
+  <rect x="40" y="295" width="400" height="220" rx="12" fill="white" opacity="0.85"/>
+  <rect x="40" y="295" width="400" height="35" rx="8" fill="#F26419"/>
+  <text x="240" y="310" font-family="Georgia, serif" font-size="13" fill="white" text-anchor="middle" font-weight="bold">NEURÔNIOS-ESPELHO</text>
+  <text x="240" y="323" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">A base neural da empatia e aprendizagem social</text>
+
+  <!-- Neurônio 1 (observador) -->
+  <circle cx="110" cy="380" r="22" fill="#2E86AB" opacity="0.85"/>
+  <text x="110" y="377" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">CÉREBRO</text>
+  <text x="110" y="388" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">OBSERVADOR</text>
+  <!-- Dendritos -->
+  <line x1="88" y1="368" x2="72" y2="355" stroke="#2E86AB" stroke-width="2"/>
+  <line x1="92" y1="362" x2="80" y2="345" stroke="#2E86AB" stroke-width="2"/>
+  <line x1="88" y1="395" x2="72" y2="408" stroke="#2E86AB" stroke-width="2"/>
+  <!-- Axônio -->
+  <line x1="132" y1="380" x2="200" y2="380" stroke="#2E86AB" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
+
+  <!-- Ativação espelho -->
+  <rect x="155" y="365" width="90" height="30" rx="5" fill="#F4E9CD" stroke="#F26419" stroke-width="1.5"/>
+  <text x="200" y="378" font-family="Arial, sans-serif" font-size="9" fill="#F26419" text-anchor="middle" font-weight="bold">ATIVA</text>
+  <text x="200" y="390" font-family="Arial, sans-serif" font-size="9" fill="#F26419" text-anchor="middle">ESPELHO</text>
+
+  <!-- Neurônio 2 (modelo) -->
+  <circle cx="280" cy="380" r="22" fill="#2D6A4F" opacity="0.85"/>
+  <text x="280" y="377" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">CÉREBRO</text>
+  <text x="280" y="388" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">MODELO</text>
+  <!-- Dendritos direito -->
+  <line x1="302" y1="368" x2="318" y2="355" stroke="#2D6A4F" stroke-width="2"/>
+  <line x1="298" y1="362" x2="310" y2="345" stroke="#2D6A4F" stroke-width="2"/>
+  <line x1="302" y1="395" x2="318" y2="408" stroke="#2D6A4F" stroke-width="2"/>
+
+  <text x="240" y="430" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Ver alguém realizar uma ação ativa os</text>
+  <text x="240" y="445" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">mesmos neurônios como se você fizesse</text>
+  <text x="240" y="460" font-family="Arial, sans-serif" font-size="11" fill="#F26419" text-anchor="middle" font-weight="bold">→ Base da imitação e aprendizagem social</text>
+  <text x="240" y="478" font-family="Arial, sans-serif" font-size="10" fill="#555" text-anchor="middle" font-style="italic">Descoberta: Giacomo Rizzolatti, Univ. Parma (1990s)</text>
+  <text x="240" y="493" font-family="Arial, sans-serif" font-size="10" fill="#555" text-anchor="middle" font-style="italic">Referência: Daniel Goleman — "Inteligência Social" (2006)</text>
+
+  <!-- JANELA EMOCIONAL -->
+  <rect x="460" y="295" width="420" height="220" rx="12" fill="white" opacity="0.85"/>
+  <rect x="460" y="295" width="420" height="35" rx="8" fill="#2E86AB"/>
+  <text x="670" y="310" font-family="Georgia, serif" font-size="13" fill="white" text-anchor="middle" font-weight="bold">A JANELA DE TOLERÂNCIA</text>
+  <text x="670" y="323" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Dan Siegel — zona de aprendizagem ideal</text>
+
+  <!-- Zona hiperativação -->
+  <rect x="475" y="340" width="390" height="35" rx="5" fill="#F26419" opacity="0.7"/>
+  <text x="670" y="358" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">HIPERATIVAÇÃO — ESTRESSE, PÂNICO, CAOS</text>
+  <text x="670" y="370" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Amígdala dominante • Aprende muito pouco</text>
+
+  <!-- Zona ideal -->
+  <rect x="475" y="380" width="390" height="55" rx="5" fill="#2D6A4F" opacity="0.75"/>
+  <text x="670" y="398" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">✓ ZONA DE APRENDIZAGEM IDEAL</text>
+  <text x="670" y="413" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Ativação moderada • Curiosidade • Desafio com segurança</text>
+  <text x="670" y="427" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Cortisol baixo • Dopamina alta • Memória consolidada</text>
+
+  <!-- Zona hipoativação -->
+  <rect x="475" y="440" width="390" height="35" rx="5" fill="#9B59B6" opacity="0.6"/>
+  <text x="670" y="458" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">HIPOATIVAÇÃO — TÉDIO, DESMOTIVAÇÃO, SHUT DOWN</text>
+  <text x="670" y="470" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Dopamina baixa • Desengajamento • Aprende muito pouco</text>
+
+  <text x="670" y="498" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle" font-style="italic">→ O papel do educador: manter o aluno na zona verde!</text>
+
+  <!-- Rodapé -->
+  <rect x="20" y="530" width="860" height="55" rx="8" fill="#2D6A4F" opacity="0.08" stroke="#2D6A4F" stroke-width="1"/>
+  <text x="450" y="550" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" text-anchor="middle" font-weight="bold">PRINCÍPIO FUNDAMENTAL: "Nenhum ser humano aprende bem quando está com medo."</text>
+  <text x="450" y="568" font-family="Arial, sans-serif" font-size="10" fill="#555" text-anchor="middle">— Daniel J. Siegel, neurocientista, UCLA — base do conceito de Janela de Tolerância</text>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <linearGradient id="bgM6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F4FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F4E9CD;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bgM6)"/>
+
+  <!-- Título -->
+  <rect x="20" y="15" width="860" height="55" rx="10" fill="#2D6A4F"/>
+  <text x="450" y="38" font-family="Georgia, serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold" letter-spacing="2">MÓDULO 6 — CASOS ESPECIAIS E DESAFIOS PRÁTICOS</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="11" fill="#E8F5EE" text-anchor="middle">Compreendendo cérebros que aprendem diferente • Prof.ª Rosangela Sousa</text>
+
+  <!-- ===== MAPA VISUAL DAS 6 CONDIÇÕES ===== -->
+  <!-- Centro do mapa -->
+  <circle cx="450" cy="310" r="55" fill="#2D6A4F" opacity="0.9"/>
+  <text x="450" y="305" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">NEURODIVERSI-</text>
+  <text x="450" y="320" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">DADE</text>
+  <text x="450" y="335" font-family="Arial, sans-serif" font-size="9" fill="#E8F5EE" text-anchor="middle">Todos os cérebros</text>
+  <text x="450" y="347" font-family="Arial, sans-serif" font-size="9" fill="#E8F5EE" text-anchor="middle">têm valor</text>
+
+  <!-- Linhas conectoras -->
+  <line x1="450" y1="255" x2="450" y2="195" stroke="#D4A373" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="497" y1="270" x2="640" y2="210" stroke="#D4A373" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="505" y1="310" x2="660" y2="310" stroke="#D4A373" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="497" y1="350" x2="640" y2="420" stroke="#D4A373" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="403" y1="270" x2="260" y2="210" stroke="#D4A373" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="395" y1="310" x2="240" y2="310" stroke="#D4A373" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="403" y1="350" x2="260" y2="420" stroke="#D4A373" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- ===== 1 — TDAH (topo) ===== -->
+  <rect x="300" y="90" width="300" height="100" rx="12" fill="#F26419" opacity="0.12" stroke="#F26419" stroke-width="2.5"/>
+  <rect x="300" y="90" width="300" height="32" rx="8" fill="#F26419"/>
+  <text x="450" y="106" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">TDAH</text>
+  <text x="450" y="118" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Transtorno do Déficit de Atenção com Hiperatividade</text>
+  <text x="310" y="138" font-family="Arial, sans-serif" font-size="10" fill="#8B2500">Cérebro: dopamina baixa no CPF • Amígdala hiperativa</text>
+  <text x="310" y="152" font-family="Arial, sans-serif" font-size="10" fill="#8B2500">Afeta: 5-8% crianças • Mais diagnosticado em meninos</text>
+  <text x="310" y="166" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" font-weight="bold">✓ O que ajuda: rotina visual, pausas ativas, interesse real</text>
+  <text x="310" y="180" font-family="Arial, sans-serif" font-size="9" fill="#555">Ref: Russell Barkley • Thomas Brown</text>
+
+  <!-- ===== 2 — DISLEXIA (canto direito-topo) ===== -->
+  <rect x="650" y="150" width="235" height="115" rx="12" fill="#2E86AB" opacity="0.1" stroke="#2E86AB" stroke-width="2.5"/>
+  <rect x="650" y="150" width="235" height="32" rx="8" fill="#2E86AB"/>
+  <text x="767" y="166" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">DISLEXIA</text>
+  <text x="767" y="178" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Dificuldade de leitura de origem neurológica</text>
+  <text x="660" y="198" font-family="Arial, sans-serif" font-size="10" fill="#1A4A6A">Cérebro: via fonológica atípica</text>
+  <text x="660" y="212" font-family="Arial, sans-serif" font-size="10" fill="#1A4A6A">Afeta: 5-17% da população</text>
+  <text x="660" y="226" font-family="Arial, sans-serif" font-size="10" fill="#1A4A6A">Não é falta de inteligência!</text>
+  <text x="660" y="240" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" font-weight="bold">✓ Método fônico + multissensorial</text>
+  <text x="660" y="254" font-family="Arial, sans-serif" font-size="9" fill="#555">Ref: Sally Shaywitz • Yale Center</text>
+
+  <!-- ===== 3 — ANSIEDADE (canto direito-meio) ===== -->
+  <rect x="665" y="270" width="220" height="115" rx="12" fill="#D32F2F" opacity="0.1" stroke="#D32F2F" stroke-width="2.5"/>
+  <rect x="665" y="270" width="220" height="32" rx="8" fill="#D32F2F"/>
+  <text x="775" y="286" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">ANSIEDADE</text>
+  <text x="775" y="298" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Transtorno mais prevalente na infância</text>
+  <text x="675" y="318" font-family="Arial, sans-serif" font-size="10" fill="#8B0000">Cérebro: amígdala superativa + CPF fraco</text>
+  <text x="675" y="332" font-family="Arial, sans-serif" font-size="10" fill="#8B0000">Afeta: 1 em cada 8 crianças</text>
+  <text x="675" y="346" font-family="Arial, sans-serif" font-size="10" fill="#8B0000">Pós-pandemia: aumento de 30%</text>
+  <text x="675" y="360" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" font-weight="bold">✓ TCC + respiração + rotina segura</text>
+  <text x="675" y="374" font-family="Arial, sans-serif" font-size="9" fill="#555">Ref: APA • DSM-5</text>
+
+  <!-- ===== 4 — ALTAS HABILIDADES (canto direito-baixo) ===== -->
+  <rect x="650" y="395" width="235" height="115" rx="12" fill="#9B59B6" opacity="0.1" stroke="#9B59B6" stroke-width="2.5"/>
+  <rect x="650" y="395" width="235" height="32" rx="8" fill="#9B59B6"/>
+  <text x="767" y="411" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">ALTAS HABILIDADES</text>
+  <text x="767" y="423" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Superdotação e talentos excepcionais</text>
+  <text x="660" y="443" font-family="Arial, sans-serif" font-size="10" fill="#5D3A6A">Cérebro: processamento mais rápido e denso</text>
+  <text x="660" y="457" font-family="Arial, sans-serif" font-size="10" fill="#5D3A6A">Risco: tédio → desmotivação → problemas</text>
+  <text x="660" y="471" font-family="Arial, sans-serif" font-size="10" fill="#5D3A6A">Dupla excepcionalidade: AH + TDAH/TEA</text>
+  <text x="660" y="485" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" font-weight="bold">✓ Enriquecimento curricular + aceleração</text>
+  <text x="660" y="499" font-family="Arial, sans-serif" font-size="9" fill="#555">Ref: Joseph Renzulli • MEC/CNPQ</text>
+
+  <!-- ===== 5 — BULLYING (canto esquerdo-topo) ===== -->
+  <rect x="15" y="150" width="235" height="115" rx="12" fill="#8B5E3C" opacity="0.1" stroke="#8B5E3C" stroke-width="2.5"/>
+  <rect x="15" y="150" width="235" height="32" rx="8" fill="#8B5E3C"/>
+  <text x="132" y="166" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">BULLYING</text>
+  <text x="132" y="178" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Impactos cerebrais da violência social</text>
+  <text x="25" y="198" font-family="Arial, sans-serif" font-size="10" fill="#5A3A00">Cérebro: ativa mesmos circuitos que dor física</text>
+  <text x="25" y="212" font-family="Arial, sans-serif" font-size="10" fill="#5A3A00">Hipocampo: atrofia com exposição crônica</text>
+  <text x="25" y="226" font-family="Arial, sans-serif" font-size="10" fill="#5A3A00">Cyberbullying: 24h/dia sem escape</text>
+  <text x="25" y="240" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" font-weight="bold">✓ Clima escolar + habilidades socioemocionais</text>
+  <text x="25" y="254" font-family="Arial, sans-serif" font-size="9" fill="#555">Ref: Naomi Eisenberger • UCLA</text>
+
+  <!-- ===== 6 — QUANDO ENCAMINHAR (canto esquerdo-baixo) ===== -->
+  <rect x="15" y="395" width="235" height="115" rx="12" fill="#2D6A4F" opacity="0.1" stroke="#2D6A4F" stroke-width="2.5"/>
+  <rect x="15" y="395" width="235" height="32" rx="8" fill="#2D6A4F"/>
+  <text x="132" y="411" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">QUANDO ENCAMINHAR</text>
+  <text x="132" y="423" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Sinais de alerta que pedem especialista</text>
+  <text x="25" y="443" font-family="Arial, sans-serif" font-size="10" fill="#1A4A2F">🔴 Regressão persistente</text>
+  <text x="25" y="457" font-family="Arial, sans-serif" font-size="10" fill="#1A4A2F">🔴 Isolamento e recusa escolar</text>
+  <text x="25" y="471" font-family="Arial, sans-serif" font-size="10" fill="#1A4A2F">🔴 Automutilação ou ideação suicida</text>
+  <text x="25" y="485" font-family="Arial, sans-serif" font-size="10" fill="#1A4A2F">🔴 Dificuldade grave após 6 meses</text>
+  <text x="25" y="499" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" font-weight="bold">→ Neuropediatra, psicólogo, psiquiatra</text>
+
+  <!-- Nota central abaixo do hub -->
+  <rect x="340" y="380" width="220" height="55" rx="8" fill="#F4E9CD" stroke="#D4A373" stroke-width="1.5"/>
+  <text x="450" y="398" font-family="Arial, sans-serif" font-size="10" fill="#8B5E3C" text-anchor="middle" font-weight="bold">NEURODIVERSIDADE</text>
+  <text x="450" y="412" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">Cada cérebro é único e valioso.</text>
+  <text x="450" y="425" font-family="Arial, sans-serif" font-size="9" fill="#555" text-anchor="middle">Nossa missão: criar condições para</text>
+  <text x="450" y="438" font-family="Arial, sans-serif" font-size="9" fill="#2D6A4F" text-anchor="middle" font-weight="bold">que TODOS possam aprender.</text>
+
+  <!-- Rodapé -->
+  <rect x="20" y="520" width="860" height="65" rx="8" fill="white" opacity="0.7"/>
+  <text x="450" y="540" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" text-anchor="middle" font-weight="bold">PRINCÍPIO DA NEURODIVERSIDADE — Thomas Armstrong (2010)</text>
+  <text x="450" y="556" font-family="Arial, sans-serif" font-size="10" fill="#555" text-anchor="middle">"A humanidade como um todo se beneficia da diversidade de mentes humanas, assim como os ecossistemas são</text>
+  <text x="450" y="570" font-family="Arial, sans-serif" font-size="10" fill="#555" text-anchor="middle">fortalecidos pela biodiversidade." | CPF = Córtex Pré-Frontal • TCC = Terapia Cognitivo-Comportamental</text>
+  <text x="450" y="582" font-family="Arial, sans-serif" font-size="9" fill="#777" text-anchor="middle">TEA = Transtorno do Espectro Autista • AH/SD = Altas Habilidades/Superdotação</text>
+</svg>

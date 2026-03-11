@@ -1,0 +1,65 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- Fundo creme -->
+  <rect width="800" height="600" fill="#F4E9CD"/>
+  <rect x="12" y="12" width="776" height="576" rx="14" ry="14" fill="none" stroke="#2D6A4F" stroke-width="2"/>
+
+  <!-- Título -->
+  <rect x="0" y="0" width="800" height="72" rx="14" ry="14" fill="#2D6A4F"/>
+  <rect x="0" y="58" width="800" height="16" fill="#2D6A4F"/>
+  <text x="400" y="30" text-anchor="middle" font-size="12" fill="#D4A373" letter-spacing="3">MÓDULO 4</text>
+  <text x="400" y="58" text-anchor="middle" font-size="20" fill="#F4E9CD" font-weight="bold">Autoconhecimento Psicanalítico — Jornada Prática</text>
+
+  <!-- Jornada em espiral — 5 etapas -->
+  <text x="400" y="108" text-anchor="middle" font-size="14" fill="#2D6A4F" font-weight="bold">A Jornada de Autoconhecimento</text>
+
+  <!-- Arco/espiral com 5 estações -->
+  <!-- Curva de fundo -->
+  <path d="M 100,480 Q 250,120 400,300 Q 550,480 700,180" fill="none" stroke="#D4A373" stroke-width="3" stroke-dasharray="8,4" opacity="0.6"/>
+
+  <!-- Estação 1 — Escuta de Si -->
+  <circle cx="118" cy="460" r="52" fill="#2D6A4F" opacity="0.9"/>
+  <text x="118" y="446" text-anchor="middle" font-size="10" fill="#D4A373" font-weight="bold">ETAPA 1</text>
+  <text x="118" y="462" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Escuta</text>
+  <text x="118" y="477" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">de Si</text>
+  <text x="118" y="493" text-anchor="middle" font-size="9" fill="#D4A373">livre associação</text>
+
+  <!-- Estação 2 — Padrões -->
+  <circle cx="255" cy="255" r="52" fill="#D4A373" opacity="0.9"/>
+  <text x="255" y="241" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">ETAPA 2</text>
+  <text x="255" y="257" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">Padrões de</text>
+  <text x="255" y="272" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">Relacionamento</text>
+  <text x="255" y="288" text-anchor="middle" font-size="9" fill="#2D6A4F">o que os vínculos dizem</text>
+
+  <!-- Estação 3 — Infância -->
+  <circle cx="400" cy="320" r="52" fill="#C9A84C" opacity="0.85"/>
+  <text x="400" y="306" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">ETAPA 3</text>
+  <text x="400" y="322" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">A Infância</text>
+  <text x="400" y="337" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">no Adulto</text>
+  <text x="400" y="352" text-anchor="middle" font-size="9" fill="#2D6A4F">origens dos padrões</text>
+
+  <!-- Estação 4 — Mudança -->
+  <circle cx="548" cy="400" r="52" fill="#2D6A4F" opacity="0.9"/>
+  <text x="548" y="386" text-anchor="middle" font-size="10" fill="#D4A373" font-weight="bold">ETAPA 4</text>
+  <text x="548" y="402" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Como a</text>
+  <text x="548" y="417" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Psicanálise</text>
+  <text x="548" y="432" text-anchor="middle" font-size="12" fill="#F4E9CD" font-weight="bold">Muda Vidas</text>
+
+  <!-- Estação 5 — Próximos Passos -->
+  <circle cx="682" cy="190" r="52" fill="#D4A373" opacity="0.9"/>
+  <text x="682" y="176" text-anchor="middle" font-size="10" fill="#2D6A4F" font-weight="bold">ETAPA 5</text>
+  <text x="682" y="192" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">Próximos</text>
+  <text x="682" y="207" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">Passos</text>
+  <text x="682" y="222" text-anchor="middle" font-size="9" fill="#2D6A4F">análise, grupos, estudo</text>
+
+  <!-- Indicadores de evolução pessoal -->
+  <line x1="44" y1="522" x2="756" y2="522" stroke="#D4A373" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Box de transformação -->
+  <rect x="44" y="532" width="340" height="50" rx="8" ry="8" fill="#2D6A4F" opacity="0.12"/>
+  <text x="214" y="552" text-anchor="middle" font-size="11" fill="#2D6A4F" font-weight="bold">O que você vai desenvolver:</text>
+  <text x="214" y="570" text-anchor="middle" font-size="10" fill="#6B4C2A">Escuta interna • Consciência dos padrões • Compreensão da origem</text>
+
+  <rect x="416" y="532" width="340" height="50" rx="8" ry="8" fill="#D4A373" opacity="0.2"/>
+  <text x="586" y="552" text-anchor="middle" font-size="11" fill="#2D6A4F" font-weight="bold">O que você vai transformar:</text>
+  <text x="586" y="570" text-anchor="middle" font-size="10" fill="#6B4C2A">Relações • Autoestima • Escolhas • Liberdade emocional</text>
+</svg>

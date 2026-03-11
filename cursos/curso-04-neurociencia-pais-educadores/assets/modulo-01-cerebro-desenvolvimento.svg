@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <linearGradient id="bgM1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4E9CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8F4F8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bgM1)"/>
+  <!-- Título -->
+  <rect x="20" y="15" width="860" height="55" rx="10" fill="#2E86AB"/>
+  <text x="450" y="38" font-family="Georgia, serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold" letter-spacing="2">MÓDULO 1 — O CÉREBRO EM DESENVOLVIMENTO</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="11" fill="#E8F4F8" text-anchor="middle">Neurociência para Pais e Educadores • Prof.ª Rosangela Sousa</text>
+
+  <!-- CÉREBRO EM PERFIL (lateral esquerdo) -->
+  <!-- Contorno geral do cérebro -->
+  <g transform="translate(60, 90)">
+    <!-- Corpo principal do cérebro (perfil direito) -->
+    <path d="M 130 280 Q 50 270 30 220 Q 10 170 20 130 Q 30 90 60 70 Q 80 55 100 50 Q 130 42 160 48 Q 200 38 230 55 Q 265 72 275 110 Q 290 145 280 185 Q 270 220 255 245 Q 240 265 210 275 Q 180 285 130 280 Z"
+          fill="#F5E6D3" stroke="#D4A373" stroke-width="3"/>
+    <!-- Cerebelo (parte posterior-inferior) -->
+    <path d="M 50 230 Q 30 245 35 265 Q 40 285 65 290 Q 90 295 110 278"
+          fill="#E8D5C0" stroke="#D4A373" stroke-width="2"/>
+    <!-- Tronco cerebral -->
+    <path d="M 65 290 Q 70 310 75 335 Q 78 350 82 360"
+          stroke="#8B5E3C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="82" cy="365" rx="12" ry="8" fill="#8B5E3C" opacity="0.7"/>
+
+    <!-- REGIÕES COLORIDAS -->
+    <!-- Córtex pré-frontal (laranja/vermelho) -->
+    <path d="M 160 48 Q 185 40 215 52 Q 240 65 248 90 Q 252 110 240 128 Q 220 138 200 130 Q 175 118 165 98 Q 155 78 160 48 Z"
+          fill="#F26419" opacity="0.75"/>
+    <!-- Lobo temporal (azul) -->
+    <path d="M 45 175 Q 55 195 80 210 Q 110 220 130 215 Q 145 208 140 188 Q 130 165 105 158 Q 75 152 55 162 Q 45 168 45 175 Z"
+          fill="#2E86AB" opacity="0.7"/>
+    <!-- Sistema límbico/lobo parietal (verde) -->
+    <path d="M 155 85 Q 195 75 225 95 Q 245 115 238 148 Q 225 168 198 172 Q 170 168 155 148 Q 142 128 148 105 Q 150 93 155 85 Z"
+          fill="#2D6A4F" opacity="0.65"/>
+    <!-- Lobo occipital (amarelo/dourado) -->
+    <path d="M 240 185 Q 258 205 255 235 Q 248 258 228 268 Q 205 272 185 262 Q 165 248 162 228 Q 162 208 178 198 Q 208 190 240 185 Z"
+          fill="#D4A373" opacity="0.75"/>
+    <!-- Cerebelo colorido -->
+    <path d="M 50 230 Q 30 245 35 265 Q 40 285 65 290 Q 90 295 110 278 Q 95 268 90 250 Q 82 235 65 230 Z"
+          fill="#9B59B6" opacity="0.55"/>
+
+    <!-- Linhas de sulcos (giros cerebrais) -->
+    <path d="M 180 55 Q 195 70 188 88" stroke="#C4956A" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M 210 62 Q 230 80 225 100" stroke="#C4956A" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M 165 100 Q 175 120 168 140" stroke="#C4956A" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M 195 92 Q 210 112 205 135" stroke="#C4956A" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M 228 140 Q 240 160 235 180" stroke="#C4956A" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M 75 165 Q 90 178 88 195" stroke="#1A6A8A" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <path d="M 100 158 Q 118 172 115 190" stroke="#1A6A8A" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+    <!-- Contorno do sulco central -->
+    <path d="M 158 78 Q 152 115 160 148" stroke="#8B5E3C" stroke-width="2" fill="none" stroke-dasharray="4,2" opacity="0.7"/>
+
+    <!-- LABELS DAS REGIÕES -->
+    <!-- Córtex pré-frontal -->
+    <rect x="192" y="25" width="135" height="30" rx="5" fill="#F26419" opacity="0.9"/>
+    <text x="259" y="38" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">CÓRTEX PRÉ-FRONTAL</text>
+    <text x="259" y="50" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Planejamento • Decisões • Impulsos</text>
+    <line x1="210" y1="55" x2="215" y2="80" stroke="#F26419" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+    <!-- Sistema límbico -->
+    <rect x="285" y="110" width="130" height="30" rx="5" fill="#2D6A4F" opacity="0.9"/>
+    <text x="350" y="122" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">LOBO PARIETAL</text>
+    <text x="350" y="134" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Integração sensorial</text>
+    <line x1="285" y1="125" x2="238" y2="135" stroke="#2D6A4F" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+    <!-- Lobo temporal -->
+    <rect x="-30" y="195" width="130" height="30" rx="5" fill="#2E86AB" opacity="0.9"/>
+    <text x="35" y="207" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">LOBO TEMPORAL</text>
+    <text x="35" y="219" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Linguagem • Memória</text>
+    <line x1="100" y1="210" x2="100" y2="198" stroke="#2E86AB" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+    <!-- Lobo occipital -->
+    <rect x="265" y="225" width="125" height="30" rx="5" fill="#8B5E3C" opacity="0.9"/>
+    <text x="327" y="237" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">LOBO OCCIPITAL</text>
+    <text x="327" y="249" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Processamento visual</text>
+    <line x1="265" y1="240" x2="248" y2="238" stroke="#8B5E3C" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+    <!-- Cerebelo -->
+    <rect x="-50" y="270" width="100" height="30" rx="5" fill="#9B59B6" opacity="0.9"/>
+    <text x="0" y="282" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">CEREBELO</text>
+    <text x="0" y="294" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Equilíbrio • Motor</text>
+    <line x1="50" y1="285" x2="65" y2="270" stroke="#9B59B6" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+    <!-- Tronco cerebral -->
+    <rect x="95" y="345" width="120" height="30" rx="5" fill="#8B5E3C" opacity="0.85"/>
+    <text x="155" y="357" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">TRONCO CEREBRAL</text>
+    <text x="155" y="369" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Funções vitais básicas</text>
+    <line x1="95" y1="360" x2="88" y2="352" stroke="#8B5E3C" stroke-width="1.5" stroke-dasharray="3,2"/>
+  </g>
+
+  <!-- PAINEL DIREITO — Desenvolvimento por fase -->
+  <rect x="490" y="90" width="390" height="490" rx="12" fill="white" opacity="0.88"/>
+  <rect x="490" y="90" width="390" height="8" rx="4" fill="#2E86AB"/>
+  <text x="685" y="120" font-family="Georgia, serif" font-size="14" fill="#2D6A4F" text-anchor="middle" font-weight="bold">DESENVOLVIMENTO CEREBRAL</text>
+  <text x="685" y="138" font-family="Arial, sans-serif" font-size="11" fill="#555" text-anchor="middle">por faixas etárias</text>
+
+  <!-- Linha do tempo vertical -->
+  <line x1="530" y1="155" x2="530" y2="545" stroke="#D4A373" stroke-width="3"/>
+
+  <!-- 0-3 anos -->
+  <circle cx="530" cy="170" r="10" fill="#F26419"/>
+  <rect x="550" y="155" width="310" height="52" rx="6" fill="#FEF0E7"/>
+  <text x="562" y="171" font-family="Arial, sans-serif" font-size="11" fill="#F26419" font-weight="bold">0 A 3 ANOS — Explosão Sináptica</text>
+  <text x="562" y="185" font-family="Arial, sans-serif" font-size="10" fill="#555">1 milhão de conexões/segundo • Fase mais plástica</text>
+  <text x="562" y="198" font-family="Arial, sans-serif" font-size="10" fill="#555">Linguagem, apego, bases emocionais</text>
+
+  <!-- 3-7 anos -->
+  <circle cx="530" cy="230" r="10" fill="#2D6A4F"/>
+  <rect x="550" y="215" width="310" height="52" rx="6" fill="#E8F5EE"/>
+  <text x="562" y="231" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" font-weight="bold">3 A 7 ANOS — Imaginação e Linguagem</text>
+  <text x="562" y="245" font-family="Arial, sans-serif" font-size="10" fill="#555">Poda sináptica inicia • Córtex consolida</text>
+  <text x="562" y="258" font-family="Arial, sans-serif" font-size="10" fill="#555">Função executiva emergindo • Jogo simbólico</text>
+
+  <!-- 7-12 anos -->
+  <circle cx="530" cy="290" r="10" fill="#2E86AB"/>
+  <rect x="550" y="275" width="310" height="52" rx="6" fill="#E3F2F8"/>
+  <text x="562" y="291" font-family="Arial, sans-serif" font-size="11" fill="#2E86AB" font-weight="bold">7 A 12 ANOS — Consolidação e Lógica</text>
+  <text x="562" y="305" font-family="Arial, sans-serif" font-size="10" fill="#555">Mielinização acelera • Lobo frontal cresce</text>
+  <text x="562" y="318" font-family="Arial, sans-serif" font-size="10" fill="#555">Raciocínio lógico • Habilidades sociais</text>
+
+  <!-- 12-18 anos -->
+  <circle cx="530" cy="350" r="10" fill="#D4A373"/>
+  <rect x="550" y="335" width="310" height="52" rx="6" fill="#FAF0E0"/>
+  <text x="562" y="351" font-family="Arial, sans-serif" font-size="11" fill="#8B5E3C" font-weight="bold">12 A 18 ANOS — Adolescência e Risco</text>
+  <text x="562" y="365" font-family="Arial, sans-serif" font-size="10" fill="#555">CPF ainda em formação • Amígdala hiperativa</text>
+  <text x="562" y="378" font-family="Arial, sans-serif" font-size="10" fill="#555">Busca de riscos • Identidade • Pares sociais</text>
+
+  <!-- 18-25 anos -->
+  <circle cx="530" cy="410" r="10" fill="#9B59B6"/>
+  <rect x="550" y="395" width="310" height="52" rx="6" fill="#F3E8F8"/>
+  <text x="562" y="411" font-family="Arial, sans-serif" font-size="11" fill="#9B59B6" font-weight="bold">18 A 25 ANOS — Maturação Final</text>
+  <text x="562" y="425" font-family="Arial, sans-serif" font-size="10" fill="#555">Córtex pré-frontal se completa ~25 anos</text>
+  <text x="562" y="438" font-family="Arial, sans-serif" font-size="10" fill="#555">Controle de impulsos • Planejamento adulto</text>
+
+  <!-- Nota importante -->
+  <rect x="500" y="460" width="370" height="50" rx="8" fill="#2E86AB" opacity="0.12" stroke="#2E86AB" stroke-width="1.5"/>
+  <text x="685" y="479" font-family="Arial, sans-serif" font-size="11" fill="#2E86AB" text-anchor="middle" font-weight="bold">⚡ FATO NEUROCIENTÍFICO</text>
+  <text x="685" y="495" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">O cérebro humano só atinge maturidade plena</text>
+  <text x="685" y="508" font-family="Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">por volta dos 25 anos de idade</text>
+
+  <!-- Legenda -->
+  <text x="500" y="540" font-family="Arial, sans-serif" font-size="10" fill="#777">CPF = Córtex Pré-Frontal</text>
+</svg>

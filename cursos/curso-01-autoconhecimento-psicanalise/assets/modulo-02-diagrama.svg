@@ -1,0 +1,82 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- Fundo creme -->
+  <rect width="800" height="600" fill="#F4E9CD"/>
+  <rect x="12" y="12" width="776" height="576" rx="14" ry="14" fill="none" stroke="#2D6A4F" stroke-width="2"/>
+
+  <!-- Título -->
+  <rect x="0" y="0" width="800" height="72" rx="14" ry="14" fill="#2D6A4F"/>
+  <rect x="0" y="58" width="800" height="16" fill="#2D6A4F"/>
+  <text x="400" y="30" text-anchor="middle" font-size="12" fill="#D4A373" letter-spacing="3">MÓDULO 2</text>
+  <text x="400" y="58" text-anchor="middle" font-size="20" fill="#F4E9CD" font-weight="bold">Estruturas da Psique Humana</text>
+
+  <!-- ICEBERG — modelo topográfico -->
+  <text x="195" y="105" text-anchor="middle" font-size="14" fill="#2D6A4F" font-weight="bold">Modelo Topográfico</text>
+  <text x="195" y="122" text-anchor="middle" font-size="11" fill="#6B4C2A">(Consciente / Pré-consciente / Inconsciente)</text>
+
+  <!-- Iceberg visual -->
+  <!-- Linha do mar -->
+  <line x1="44" y1="210" x2="345" y2="210" stroke="#2D6A4F" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="358" y="214" font-size="10" fill="#2D6A4F">nível da</text>
+  <text x="358" y="226" font-size="10" fill="#2D6A4F">consciência</text>
+
+  <!-- Parte consciente (acima) -->
+  <polygon points="195,138 150,210 240,210" fill="#2D6A4F" opacity="0.85"/>
+  <text x="195" y="175" text-anchor="middle" font-size="11" fill="#F4E9CD" font-weight="bold">CONSCIENTE</text>
+  <text x="195" y="190" text-anchor="middle" font-size="9" fill="#D4A373">10% da psique</text>
+
+  <!-- Parte pré-consciente -->
+  <polygon points="150,210 240,210 265,265 125,265" fill="#D4A373" opacity="0.75"/>
+  <text x="195" y="242" text-anchor="middle" font-size="11" fill="#2D6A4F" font-weight="bold">PRÉ-CONSCIENTE</text>
+  <text x="195" y="257" text-anchor="middle" font-size="9" fill="#2D6A4F">memórias acessíveis</text>
+
+  <!-- Parte inconsciente -->
+  <polygon points="125,265 265,265 310,380 80,380" fill="#2D6A4F" opacity="0.85"/>
+  <text x="195" y="320" text-anchor="middle" font-size="13" fill="#F4E9CD" font-weight="bold">INCONSCIENTE</text>
+  <text x="195" y="340" text-anchor="middle" font-size="10" fill="#D4A373">traumas, desejos reprimidos</text>
+  <text x="195" y="356" text-anchor="middle" font-size="10" fill="#D4A373">conflitos, memórias ocultas</text>
+  <text x="195" y="372" text-anchor="middle" font-size="9" fill="#D4A373">~90% da psique</text>
+
+  <!-- Divisor vertical -->
+  <line x1="400" y1="95" x2="400" y2="520" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,5"/>
+
+  <!-- MODELO ESTRUTURAL — Id, Ego, Superego -->
+  <text x="595" y="105" text-anchor="middle" font-size="14" fill="#2D6A4F" font-weight="bold">Modelo Estrutural</text>
+  <text x="595" y="122" text-anchor="middle" font-size="11" fill="#6B4C2A">(Id / Ego / Superego)</text>
+
+  <!-- ID -->
+  <circle cx="595" cy="260" r="110" fill="#2D6A4F" opacity="0.2"/>
+  <text x="595" y="370" text-anchor="middle" font-size="11" fill="#2D6A4F" font-weight="bold">ID</text>
+  <text x="595" y="385" text-anchor="middle" font-size="9" fill="#6B4C2A">impulsos, prazer, instintos</text>
+
+  <!-- SUPEREGO -->
+  <ellipse cx="595" cy="175" rx="80" ry="35" fill="#D4A373" opacity="0.5"/>
+  <text x="595" y="170" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">SUPEREGO</text>
+  <text x="595" y="186" text-anchor="middle" font-size="9" fill="#2D6A4F">moral, regras, julgamento</text>
+
+  <!-- EGO -->
+  <ellipse cx="595" cy="260" rx="52" ry="52" fill="#C9A84C" opacity="0.6"/>
+  <text x="595" y="255" text-anchor="middle" font-size="14" fill="#2D6A4F" font-weight="bold">EGO</text>
+  <text x="595" y="272" text-anchor="middle" font-size="9" fill="#2D6A4F">mediador da realidade</text>
+
+  <!-- Setas entre estruturas -->
+  <line x1="595" y1="210" x2="595" y2="218" stroke="#2D6A4F" stroke-width="2"/>
+  <line x1="595" y1="312" x2="595" y2="340" stroke="#2D6A4F" stroke-width="2"/>
+
+  <!-- Pulsões -->
+  <text x="595" y="430" text-anchor="middle" font-size="13" fill="#2D6A4F" font-weight="bold">Pulsões: Eros e Tânatos</text>
+
+  <rect x="430" y="445" width="140" height="55" rx="8" ry="8" fill="#D4A373" opacity="0.75"/>
+  <text x="500" y="466" text-anchor="middle" font-size="12" fill="#2D6A4F" font-weight="bold">EROS ❤</text>
+  <text x="500" y="482" text-anchor="middle" font-size="9" fill="#2D6A4F">pulsão de vida</text>
+  <text x="500" y="495" text-anchor="middle" font-size="9" fill="#2D6A4F">amor, criação, vínculo</text>
+
+  <rect x="620" y="445" width="140" height="55" rx="8" ry="8" fill="#2D6A4F" opacity="0.8"/>
+  <text x="690" y="466" text-anchor="middle" font-size="12" fill="#D4A373" font-weight="bold">TÂNATOS ✝</text>
+  <text x="690" y="482" text-anchor="middle" font-size="9" fill="#F4E9CD">pulsão de morte</text>
+  <text x="690" y="495" text-anchor="middle" font-size="9" fill="#F4E9CD">destruição, repetição</text>
+
+  <!-- Rodapé explicativo -->
+  <line x1="44" y1="530" x2="756" y2="530" stroke="#D4A373" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="400" y="552" text-anchor="middle" font-size="11" fill="#2D6A4F" font-style="italic">"O ego não é senhor em sua própria casa." — Sigmund Freud</text>
+  <text x="400" y="570" text-anchor="middle" font-size="10" fill="#6B4C2A">Módulo 2 | Curso: Autoconhecimento pela Psicanálise | Rosangela Sousa</text>
+</svg>

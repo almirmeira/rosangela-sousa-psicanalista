@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <radialGradient id="bg02" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#F4E9CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ede0c0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#bg02)"/>
+
+  <!-- Título -->
+  <text x="450" y="38" font-family="Georgia, serif" font-size="20" fill="#1B3A4B" text-anchor="middle" font-weight="bold">PSICANÁLISE APLICADA À TERAPIA HOLÍSTICA</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="12" fill="#2D6A4F" text-anchor="middle">Módulo 2 — Mapa de Conexões entre os Campos</text>
+  <line x1="150" y1="68" x2="750" y2="68" stroke="#2D6A4F" stroke-width="1.5"/>
+
+  <!-- Nó central: Encontro Terapêutico -->
+  <circle cx="450" cy="310" r="55" fill="#2D6A4F" opacity="0.15" stroke="#2D6A4F" stroke-width="2"/>
+  <circle cx="450" cy="310" r="42" fill="#2D6A4F" opacity="0.2"/>
+  <text x="450" y="303" font-family="Georgia, serif" font-size="13" fill="#1B3A4B" text-anchor="middle" font-weight="bold">ENCONTRO</text>
+  <text x="450" y="318" font-family="Georgia, serif" font-size="13" fill="#1B3A4B" text-anchor="middle" font-weight="bold">TERAPÊUTICO</text>
+  <text x="450" y="333" font-family="Arial, sans-serif" font-size="10" fill="#2D6A4F" text-anchor="middle">Holístico Integrativo</text>
+
+  <!-- Nó 1: Psicanálise (esquerda superior) -->
+  <circle cx="200" cy="180" r="62" fill="#1B3A4B" opacity="0.1" stroke="#1B3A4B" stroke-width="1.5"/>
+  <text x="200" y="172" font-family="Georgia, serif" font-size="13" fill="#1B3A4B" text-anchor="middle" font-weight="bold">PSICANÁLISE</text>
+  <text x="200" y="188" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Inconsciente</text>
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Defesas · Transferência</text>
+  <text x="200" y="212" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Escuta Ativa</text>
+  <!-- Linha de conexão -->
+  <line x1="256" y1="215" x2="402" y2="280" stroke="#1B3A4B" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Nó 2: Bioenergética (direita superior) -->
+  <circle cx="700" cy="180" r="62" fill="#D4A373" opacity="0.2" stroke="#D4A373" stroke-width="1.5"/>
+  <text x="700" y="172" font-family="Georgia, serif" font-size="13" fill="#8B5E2F" text-anchor="middle" font-weight="bold">BIOENERGÉTICA</text>
+  <text x="700" y="188" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Campo Energético</text>
+  <text x="700" y="200" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Chakras · Aura</text>
+  <text x="700" y="212" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Meridianos</text>
+  <!-- Linha de conexão -->
+  <line x1="644" y1="215" x2="498" y2="280" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Nó 3: Neurociência (esquerda inferior) -->
+  <circle cx="200" cy="440" r="62" fill="#2D6A4F" opacity="0.12" stroke="#2D6A4F" stroke-width="1.5"/>
+  <text x="200" y="432" font-family="Georgia, serif" font-size="13" fill="#2D6A4F" text-anchor="middle" font-weight="bold">NEUROCIÊNCIA</text>
+  <text x="200" y="448" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Neuroplasticidade</text>
+  <text x="200" y="460" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Regulação nervosa</text>
+  <text x="200" y="472" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Trauma somático</text>
+  <!-- Linha de conexão -->
+  <line x1="256" y1="405" x2="402" y2="340" stroke="#2D6A4F" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Nó 4: Mindfulness (direita inferior) -->
+  <circle cx="700" cy="440" r="62" fill="#6B2D8B" opacity="0.12" stroke="#6B2D8B" stroke-width="1.5"/>
+  <text x="700" y="432" font-family="Georgia, serif" font-size="13" fill="#6B2D8B" text-anchor="middle" font-weight="bold">MINDFULNESS</text>
+  <text x="700" y="448" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Presença terapêutica</text>
+  <text x="700" y="460" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Atenção plena</text>
+  <text x="700" y="472" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Compaixão · Grounding</text>
+  <!-- Linha de conexão -->
+  <line x1="644" y1="405" x2="498" y2="340" stroke="#6B2D8B" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Nó 5: O Corpo (acima) -->
+  <circle cx="450" cy="110" r="52" fill="#C9A84C" opacity="0.15" stroke="#C9A84C" stroke-width="1.5"/>
+  <text x="450" y="102" font-family="Georgia, serif" font-size="13" fill="#8B5E2F" text-anchor="middle" font-weight="bold">O CORPO</text>
+  <text x="450" y="118" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Somatização</text>
+  <text x="450" y="130" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Linguagem corporal</text>
+  <!-- Linha de conexão -->
+  <line x1="450" y1="162" x2="450" y2="255" stroke="#C9A84C" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Nó 6: Radiestesia (abaixo) -->
+  <circle cx="450" cy="510" r="52" fill="#D4A373" opacity="0.15" stroke="#D4A373" stroke-width="1.5"/>
+  <text x="450" y="502" font-family="Georgia, serif" font-size="13" fill="#8B5E2F" text-anchor="middle" font-weight="bold">RADIESTESIA</text>
+  <text x="450" y="518" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Diagnóstico energético</text>
+  <text x="450" y="530" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">Pêndulo e gráficos</text>
+  <!-- Linha de conexão -->
+  <line x1="450" y1="458" x2="450" y2="365" stroke="#D4A373" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <!-- Texto ao centro das conexões (rótulos) -->
+  <!-- Conexão Psicanálise -> Centro -->
+  <rect x="290" y="230" width="105" height="20" rx="4" fill="#F4E9CD" opacity="0.9"/>
+  <text x="342" y="244" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">escuta + presença</text>
+
+  <!-- Conexão Bioenergética -> Centro -->
+  <rect x="505" y="230" width="105" height="20" rx="4" fill="#F4E9CD" opacity="0.9"/>
+  <text x="557" y="244" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">leitura energética</text>
+
+  <!-- Conexão Neurociência -> Centro -->
+  <rect x="290" y="360" width="105" height="20" rx="4" fill="#F4E9CD" opacity="0.9"/>
+  <text x="342" y="374" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">regulação + cura</text>
+
+  <!-- Conexão Mindfulness -> Centro -->
+  <rect x="505" y="360" width="105" height="20" rx="4" fill="#F4E9CD" opacity="0.9"/>
+  <text x="557" y="374" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">atenção + compaixão</text>
+
+  <!-- Rodapé -->
+  <line x1="85" y1="575" x2="815" y2="575" stroke="#D4A373" stroke-width="1" opacity="0.5"/>
+  <text x="450" y="592" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" opacity="0.7">Formação em Terapia Holística Integrativa — Rosangela Sousa | Módulo 2</text>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <radialGradient id="bg06" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#F4E9CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ede0c0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#bg06)"/>
+
+  <!-- Título -->
+  <text x="450" y="38" font-family="Georgia, serif" font-size="20" fill="#1B3A4B" text-anchor="middle" font-weight="bold">MAPA ÉTICO DA PRÁTICA PROFISSIONAL</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="12" fill="#1B3A4B" text-anchor="middle">Módulo 6 — Ética, Gestão e Prática Profissional</text>
+  <line x1="150" y1="68" x2="750" y2="68" stroke="#1B3A4B" stroke-width="1.5"/>
+
+  <!-- Pilar central: O Terapeuta Ético -->
+  <rect x="330" y="220" width="240" height="110" rx="12" fill="#1B3A4B" opacity="0.12" stroke="#1B3A4B" stroke-width="2"/>
+  <text x="450" y="248" font-family="Georgia, serif" font-size="14" fill="#1B3A4B" text-anchor="middle" font-weight="bold">O TERAPEUTA ÉTICO</text>
+  <line x1="355" y1="256" x2="545" y2="256" stroke="#D4A373" stroke-width="1"/>
+  <text x="450" y="272" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Competente · Honesto</text>
+  <text x="450" y="287" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Humilde · Responsável</text>
+  <text x="450" y="302" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">Cuidadoso · Presente</text>
+  <text x="450" y="320" font-family="Arial, sans-serif" font-size="9" fill="#6B2D8B" text-anchor="middle" font-style="italic">"Primeiro, não causar dano."</text>
+
+  <!-- 6 dimensões éticas em torno do centro -->
+
+  <!-- Dimensão 1: Competência (topo esquerdo) -->
+  <rect x="90" y="95" width="185" height="115" rx="8" fill="#2D6A4F" opacity="0.1" stroke="#2D6A4F" stroke-width="1.5"/>
+  <text x="182" y="117" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" text-anchor="middle" font-weight="bold">COMPETÊNCIA</text>
+  <line x1="110" y1="124" x2="258" y2="124" stroke="#2D6A4F" stroke-width="0.8"/>
+  <text x="182" y="140" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Formação continuada</text>
+  <text x="182" y="154" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Conhecer seus limites</text>
+  <text x="182" y="168" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Encaminhar quando necessário</text>
+  <text x="182" y="182" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Supervisão regular</text>
+  <text x="182" y="196" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Atualização constante</text>
+  <!-- Linha ao centro -->
+  <line x1="275" y1="180" x2="332" y2="265" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- Dimensão 2: Sigilo (topo direito) -->
+  <rect x="625" y="95" width="185" height="115" rx="8" fill="#6B2D8B" opacity="0.1" stroke="#6B2D8B" stroke-width="1.5"/>
+  <text x="717" y="117" font-family="Arial, sans-serif" font-size="11" fill="#6B2D8B" text-anchor="middle" font-weight="bold">SIGILO</text>
+  <line x1="645" y1="124" x2="793" y2="124" stroke="#6B2D8B" stroke-width="0.8"/>
+  <text x="717" y="140" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Confidencialidade total</text>
+  <text x="717" y="154" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Sem identificação do cliente</text>
+  <text x="717" y="168" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Cuidado nas redes sociais</text>
+  <text x="717" y="182" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Documentação segura</text>
+  <text x="717" y="196" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Exceções legais previstas</text>
+  <line x1="625" y1="180" x2="568" y2="265" stroke="#6B2D8B" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- Dimensão 3: Limites (esquerda meio) -->
+  <rect x="55" y="270" width="185" height="115" rx="8" fill="#C9A84C" opacity="0.15" stroke="#C9A84C" stroke-width="1.5"/>
+  <text x="147" y="292" font-family="Arial, sans-serif" font-size="11" fill="#8B5E2F" text-anchor="middle" font-weight="bold">LIMITES DE ATUAÇÃO</text>
+  <line x1="75" y1="299" x2="222" y2="299" stroke="#C9A84C" stroke-width="0.8"/>
+  <text x="147" y="315" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ O que posso fazer</text>
+  <text x="147" y="329" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ O que não posso fazer</text>
+  <text x="147" y="343" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Encaminhamentos éticos</text>
+  <text x="147" y="357" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Legislação vigente</text>
+  <text x="147" y="371" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ ABRATH e CFP</text>
+  <line x1="240" y1="325" x2="332" y2="295" stroke="#C9A84C" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- Dimensão 4: Vínculo (direita meio) -->
+  <rect x="660" y="270" width="185" height="115" rx="8" fill="#D4A373" opacity="0.2" stroke="#D4A373" stroke-width="1.5"/>
+  <text x="752" y="292" font-family="Arial, sans-serif" font-size="11" fill="#8B5E2F" text-anchor="middle" font-weight="bold">VÍNCULO TERAPÊUTICO</text>
+  <line x1="680" y1="299" x2="828" y2="299" stroke="#D4A373" stroke-width="0.8"/>
+  <text x="752" y="315" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Presença sem fusão</text>
+  <text x="752" y="329" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Transferência consciente</text>
+  <text x="752" y="343" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Consentimento informado</text>
+  <text x="752" y="357" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Evitar duplos vínculos</text>
+  <text x="752" y="371" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Encerramento ético</text>
+  <line x1="660" y1="325" x2="568" y2="300" stroke="#D4A373" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- Dimensão 5: Autocuidado (baixo esquerdo) -->
+  <rect x="90" y="445" width="185" height="115" rx="8" fill="#1B3A4B" opacity="0.08" stroke="#1B3A4B" stroke-width="1.5"/>
+  <text x="182" y="467" font-family="Arial, sans-serif" font-size="11" fill="#1B3A4B" text-anchor="middle" font-weight="bold">AUTOCUIDADO</text>
+  <line x1="110" y1="474" x2="258" y2="474" stroke="#1B3A4B" stroke-width="0.8"/>
+  <text x="182" y="490" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Supervisão própria</text>
+  <text x="182" y="504" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Terapia pessoal</text>
+  <text x="182" y="518" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Cuidar de quem cuida</text>
+  <text x="182" y="532" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Limites de agenda</text>
+  <text x="182" y="546" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Equilíbrio pessoal</text>
+  <line x1="275" y1="470" x2="380" y2="338" stroke="#1B3A4B" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <!-- Dimensão 6: Comunicação Ética (baixo direito) -->
+  <rect x="625" y="445" width="185" height="115" rx="8" fill="#2D6A4F" opacity="0.1" stroke="#2D6A4F" stroke-width="1.5"/>
+  <text x="717" y="467" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" text-anchor="middle" font-weight="bold">COMUNICAÇÃO ÉTICA</text>
+  <line x1="645" y1="474" x2="793" y2="474" stroke="#2D6A4F" stroke-width="0.8"/>
+  <text x="717" y="490" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Marketing sem promessas</text>
+  <text x="717" y="504" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Não criar dependência</text>
+  <text x="717" y="518" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Precificação honesta</text>
+  <text x="717" y="532" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Depoimentos éticos</text>
+  <text x="717" y="546" font-family="Arial, sans-serif" font-size="9" fill="#1B3A4B" text-anchor="middle">✓ Clareza sobre formação</text>
+  <line x1="625" y1="470" x2="520" y2="338" stroke="#2D6A4F" stroke-width="1" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <!-- Rodapé -->
+  <text x="450" y="590" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle" opacity="0.7">Formação em Terapia Holística Integrativa — Rosangela Sousa | Módulo 6</text>
+</svg>

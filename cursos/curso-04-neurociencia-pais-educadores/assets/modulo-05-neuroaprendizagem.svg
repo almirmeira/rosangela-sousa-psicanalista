@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <linearGradient id="bgM5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E8F5EE;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bgM5)"/>
+
+  <!-- Título -->
+  <rect x="20" y="15" width="860" height="55" rx="10" fill="#2E86AB"/>
+  <text x="450" y="38" font-family="Georgia, serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold" letter-spacing="2">MÓDULO 5 — NEUROAPRENDIZAGEM NA PRÁTICA</text>
+  <text x="450" y="58" font-family="Arial, sans-serif" font-size="11" fill="#E8F4F8" text-anchor="middle">A ciência do como aprendemos melhor • Prof.ª Rosangela Sousa</text>
+
+  <!-- RODA CENTRAL DE NEUROAPRENDIZAGEM -->
+  <!-- Centro -->
+  <circle cx="450" cy="330" r="70" fill="#2E86AB" opacity="0.9"/>
+  <text x="450" y="323" font-family="Georgia, serif" font-size="13" fill="white" text-anchor="middle" font-weight="bold">NEURO</text>
+  <text x="450" y="340" font-family="Georgia, serif" font-size="13" fill="white" text-anchor="middle" font-weight="bold">APRENDIZAGEM</text>
+  <text x="450" y="357" font-family="Arial, sans-serif" font-size="10" fill="#E3F2F8" text-anchor="middle">Pilares práticos</text>
+
+  <!-- Anel externo (pálido) -->
+  <circle cx="450" cy="330" r="115" fill="none" stroke="#2E86AB" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.4"/>
+
+  <!-- 6 SETORES da roda -->
+  <!-- Setor 1 — Metodologias Ativas (topo) -->
+  <path d="M 450 260 L 390 155 A 185 185 0 0 1 510 155 Z" fill="#F26419" opacity="0.8"/>
+  <text x="450" y="185" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">METODOLOGIAS</text>
+  <text x="450" y="198" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">ATIVAS</text>
+
+  <!-- Setor 2 — Sono (direito-topo) -->
+  <path d="M 510 155 A 185 185 0 0 1 635 235 L 520 280 Z" fill="#2D6A4F" opacity="0.8"/>
+  <text x="590" y="205" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">SONO E</text>
+  <text x="590" y="218" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">MEMÓRIA</text>
+
+  <!-- Setor 3 — Exercício (direito-baixo) -->
+  <path d="M 635 235 A 185 185 0 0 1 635 425 L 525 375 Z" fill="#D4A373" opacity="0.85"/>
+  <text x="618" y="335" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">EXERCÍCIO</text>
+  <text x="618" y="348" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">FÍSICO</text>
+
+  <!-- Setor 4 — Tecnologia (baixo-direito) -->
+  <path d="M 635 425 A 185 185 0 0 1 510 505 L 450 400 Z" fill="#9B59B6" opacity="0.75"/>
+  <text x="565" y="475" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">TECNOLOGIA</text>
+  <text x="565" y="488" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">CONSCIENTE</text>
+
+  <!-- Setor 5 — Alimentação (baixo-esquerdo) -->
+  <path d="M 510 505 A 185 185 0 0 1 390 505 L 450 400 Z" fill="#F26419" opacity="0.7"/>
+  <text x="450" y="475" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">ALIMENTAÇÃO</text>
+  <text x="450" y="488" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">E CÉREBRO</text>
+
+  <!-- Setor 6 — Aprendizagem por projetos (esquerdo-baixo) -->
+  <path d="M 390 505 A 185 185 0 0 1 265 425 L 380 375 Z" fill="#2E86AB" opacity="0.7"/>
+  <text x="305" y="465" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">APrendizagem</text>
+  <text x="305" y="478" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">PROJETOS</text>
+
+  <!-- Linhas de divisão da roda -->
+  <line x1="450" y1="215" x2="450" y2="260" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="510" y1="188" x2="525" y2="223" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="590" y1="270" x2="520" y2="300" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="590" y1="390" x2="530" y2="365" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="510" y1="472" x2="480" y2="400" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="390" y1="472" x2="420" y2="400" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="310" y1="390" x2="373" y2="365" stroke="white" stroke-width="2" opacity="0.6"/>
+
+  <!-- ==== CARDS INFORMATIVOS ==== -->
+  <!-- Card Metodologias Ativas (topo esquerdo) -->
+  <rect x="20" y="90" width="210" height="100" rx="10" fill="white" opacity="0.88"/>
+  <rect x="20" y="90" width="210" height="28" rx="8" fill="#F26419"/>
+  <text x="125" y="104" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">METODOLOGIAS ATIVAS</text>
+  <text x="125" y="117" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Base neurocientífica</text>
+  <text x="30" y="135" font-family="Arial, sans-serif" font-size="10" fill="#555">• Ativa mais regiões cerebrais</text>
+  <text x="30" y="148" font-family="Arial, sans-serif" font-size="10" fill="#555">• Dopamina + curiosidade</text>
+  <text x="30" y="161" font-family="Arial, sans-serif" font-size="10" fill="#555">• PBL, ABP, sala invertida</text>
+  <text x="30" y="175" font-family="Arial, sans-serif" font-size="10" fill="#555">• Memória 90% vs 10% aula exp.</text>
+
+  <!-- Card Sono (topo direito) -->
+  <rect x="670" y="90" width="210" height="100" rx="10" fill="white" opacity="0.88"/>
+  <rect x="670" y="90" width="210" height="28" rx="8" fill="#2D6A4F"/>
+  <text x="775" y="104" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">SONO E MEMÓRIA</text>
+  <text x="775" y="117" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Consolidação noturna</text>
+  <text x="680" y="135" font-family="Arial, sans-serif" font-size="10" fill="#555">• Ondas lentas limpam toxinas</text>
+  <text x="680" y="148" font-family="Arial, sans-serif" font-size="10" fill="#555">• Hipocampo → córtex</text>
+  <text x="680" y="161" font-family="Arial, sans-serif" font-size="10" fill="#555">• 8-10h crianças / 7-9h adultos</text>
+  <text x="680" y="175" font-family="Arial, sans-serif" font-size="10" fill="#555">• Privação = -40% retenção</text>
+
+  <!-- Card Exercício (meio direito) -->
+  <rect x="670" y="300" width="210" height="100" rx="10" fill="white" opacity="0.88"/>
+  <rect x="670" y="300" width="210" height="28" rx="8" fill="#D4A373"/>
+  <text x="775" y="314" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">EXERCÍCIO FÍSICO</text>
+  <text x="775" y="327" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">BDNF — "adubo do cérebro"</text>
+  <text x="680" y="345" font-family="Arial, sans-serif" font-size="10" fill="#555">• Aumenta BDNF e neuroplast.</text>
+  <text x="680" y="358" font-family="Arial, sans-serif" font-size="10" fill="#555">• 20min elevam foco 2-3h</text>
+  <text x="680" y="371" font-family="Arial, sans-serif" font-size="10" fill="#555">• Reduz cortisol e ansiedade</text>
+  <text x="680" y="384" font-family="Arial, sans-serif" font-size="10" fill="#555">• John Ratey — SPARK (2008)</text>
+
+  <!-- Card Tecnologia (baixo direito) -->
+  <rect x="670" y="430" width="210" height="100" rx="10" fill="white" opacity="0.88"/>
+  <rect x="670" y="430" width="210" height="28" rx="8" fill="#9B59B6"/>
+  <text x="775" y="444" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">TECNOLOGIA</text>
+  <text x="775" y="457" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Aliada com critério</text>
+  <text x="680" y="475" font-family="Arial, sans-serif" font-size="10" fill="#555">• Screen time ≠ ruim por si só</text>
+  <text x="680" y="488" font-family="Arial, sans-serif" font-size="10" fill="#555">• Qualidade > Quantidade</text>
+  <text x="680" y="501" font-family="Arial, sans-serif" font-size="10" fill="#555">• Social media: amígdala hiperativa</text>
+  <text x="680" y="514" font-family="Arial, sans-serif" font-size="10" fill="#555">• Co-uso familiar recomendado</text>
+
+  <!-- Card Alimentação (baixo esquerdo) -->
+  <rect x="20" y="430" width="210" height="100" rx="10" fill="white" opacity="0.88"/>
+  <rect x="20" y="430" width="210" height="28" rx="8" fill="#F26419" opacity="0.75"/>
+  <text x="125" y="444" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">ALIMENTAÇÃO</text>
+  <text x="125" y="457" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">O segundo cérebro</text>
+  <text x="30" y="475" font-family="Arial, sans-serif" font-size="10" fill="#555">• Ômega-3: myelin + sinapses</text>
+  <text x="30" y="488" font-family="Arial, sans-serif" font-size="10" fill="#555">• Açúcar = inflamação neural</text>
+  <text x="30" y="501" font-family="Arial, sans-serif" font-size="10" fill="#555">• Microbioma → serotonina</text>
+  <text x="30" y="514" font-family="Arial, sans-serif" font-size="10" fill="#555">• Café da manhã: +20% foco</text>
+
+  <!-- Card Projetos (meio esquerdo) -->
+  <rect x="20" y="300" width="210" height="100" rx="10" fill="white" opacity="0.88"/>
+  <rect x="20" y="300" width="210" height="28" rx="8" fill="#2E86AB" opacity="0.8"/>
+  <text x="125" y="314" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="bold">APRENDIZAGEM POR</text>
+  <text x="125" y="327" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">PROJETOS (PBL)</text>
+  <text x="30" y="345" font-family="Arial, sans-serif" font-size="10" fill="#555">• Contextualização = sentido</text>
+  <text x="30" y="358" font-family="Arial, sans-serif" font-size="10" fill="#555">• Ativa córtex pré-frontal</text>
+  <text x="30" y="371" font-family="Arial, sans-serif" font-size="10" fill="#555">• Colaboração → ocitocina</text>
+  <text x="30" y="384" font-family="Arial, sans-serif" font-size="10" fill="#555">• Retenção de longo prazo</text>
+
+  <!-- Rodapé -->
+  <rect x="20" y="555" width="860" height="35" rx="8" fill="#2E86AB" opacity="0.12" stroke="#2E86AB" stroke-width="1"/>
+  <text x="450" y="570" font-family="Arial, sans-serif" font-size="11" fill="#2E86AB" text-anchor="middle" font-weight="bold">BDNF = Brain-Derived Neurotrophic Factor • PBL = Problem-Based Learning • ABP = Aprendizagem Baseada em Projetos</text>
+  <text x="450" y="583" font-family="Arial, sans-serif" font-size="10" fill="#555" text-anchor="middle">Referências: John Ratey (2008), John Hattie (2009), Eric Jensen (2005), Wolfe (2010)</text>
+</svg>

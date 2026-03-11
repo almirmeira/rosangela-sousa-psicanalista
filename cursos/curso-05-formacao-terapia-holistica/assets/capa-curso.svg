@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <!-- Fundo gradiente -->
+  <defs>
+    <radialGradient id="fundoGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#F4E9CD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8d9b5;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="circleGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6B2D8B;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#6B2D8B;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="900" height="600" fill="url(#fundoGrad)" />
+
+  <!-- Círculos decorativos de fundo -->
+  <circle cx="450" cy="300" r="280" fill="url(#circleGrad)" />
+  <circle cx="450" cy="300" r="220" fill="none" stroke="#2D6A4F" stroke-width="0.5" stroke-dasharray="4,8" opacity="0.3"/>
+  <circle cx="450" cy="300" r="260" fill="none" stroke="#D4A373" stroke-width="0.5" stroke-dasharray="4,8" opacity="0.3"/>
+
+  <!-- Ornamentos superiores -->
+  <line x1="100" y1="50" x2="800" y2="50" stroke="#2D6A4F" stroke-width="1" opacity="0.4"/>
+  <line x1="120" y1="58" x2="780" y2="58" stroke="#D4A373" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Mandala decorativa - centro superior -->
+  <g transform="translate(450, 120)">
+    <circle r="30" fill="none" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+    <circle r="20" fill="none" stroke="#2D6A4F" stroke-width="1" opacity="0.6"/>
+    <circle r="10" fill="#C9A84C" opacity="0.4"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+    <line x1="0" y1="-30" x2="0" y2="30" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
+    <line x1="-21" y1="-21" x2="21" y2="21" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+    <line x1="21" y1="-21" x2="-21" y2="21" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+  </g>
+
+  <!-- Badge superior -->
+  <rect x="310" y="155" width="280" height="28" rx="14" fill="#2D6A4F" opacity="0.15"/>
+  <text x="450" y="174" font-family="Georgia, serif" font-size="13" fill="#2D6A4F" text-anchor="middle" font-style="italic">Formação Profissional Premium</text>
+
+  <!-- Título principal -->
+  <text x="450" y="230" font-family="Georgia, serif" font-size="34" fill="#1B3A4B" text-anchor="middle" font-weight="bold" letter-spacing="1">FORMAÇÃO EM</text>
+  <text x="450" y="272" font-family="Georgia, serif" font-size="38" fill="#2D6A4F" text-anchor="middle" font-weight="bold" letter-spacing="2">TERAPIA HOLÍSTICA</text>
+  <text x="450" y="314" font-family="Georgia, serif" font-size="34" fill="#6B2D8B" text-anchor="middle" font-weight="bold" letter-spacing="1">INTEGRATIVA</text>
+
+  <!-- Linha decorativa abaixo do título -->
+  <line x1="200" y1="330" x2="700" y2="330" stroke="#D4A373" stroke-width="2"/>
+  <circle cx="200" cy="330" r="3" fill="#D4A373"/>
+  <circle cx="700" cy="330" r="3" fill="#D4A373"/>
+  <circle cx="450" cy="330" r="5" fill="#C9A84C"/>
+
+  <!-- Subtítulo / pilares -->
+  <text x="450" y="360" font-family="Arial, sans-serif" font-size="13" fill="#1B3A4B" text-anchor="middle" letter-spacing="3" opacity="0.8">PSICANÁLISE · NEUROCIÊNCIA · RADIESTESIA · MINDFULNESS</text>
+
+  <!-- Caixas de informações -->
+  <!-- Box 1 -->
+  <rect x="90" y="390" width="155" height="80" rx="8" fill="#2D6A4F" opacity="0.1" stroke="#2D6A4F" stroke-width="1"/>
+  <text x="167" y="412" font-family="Arial, sans-serif" font-size="11" fill="#2D6A4F" text-anchor="middle" font-weight="bold">CARGA HORÁRIA</text>
+  <text x="167" y="435" font-family="Georgia, serif" font-size="26" fill="#2D6A4F" text-anchor="middle" font-weight="bold">60h</text>
+  <text x="167" y="455" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">formação completa</text>
+
+  <!-- Box 2 -->
+  <rect x="263" y="390" width="155" height="80" rx="8" fill="#6B2D8B" opacity="0.1" stroke="#6B2D8B" stroke-width="1"/>
+  <text x="340" y="412" font-family="Arial, sans-serif" font-size="11" fill="#6B2D8B" text-anchor="middle" font-weight="bold">DURAÇÃO</text>
+  <text x="340" y="435" font-family="Georgia, serif" font-size="26" fill="#6B2D8B" text-anchor="middle" font-weight="bold">6 meses</text>
+  <text x="340" y="455" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">híbrido online</text>
+
+  <!-- Box 3 -->
+  <rect x="436" y="390" width="155" height="80" rx="8" fill="#D4A373" opacity="0.2" stroke="#D4A373" stroke-width="1"/>
+  <text x="513" y="412" font-family="Arial, sans-serif" font-size="11" fill="#C9A84C" text-anchor="middle" font-weight="bold">TURMA</text>
+  <text x="513" y="435" font-family="Georgia, serif" font-size="26" fill="#C9A84C" text-anchor="middle" font-weight="bold">máx. 20</text>
+  <text x="513" y="455" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">alunos por turma</text>
+
+  <!-- Box 4 -->
+  <rect x="609" y="390" width="155" height="80" rx="8" fill="#1B3A4B" opacity="0.08" stroke="#1B3A4B" stroke-width="1"/>
+  <text x="686" y="412" font-family="Arial, sans-serif" font-size="11" fill="#1B3A4B" text-anchor="middle" font-weight="bold">CERTIFICAÇÃO</text>
+  <text x="686" y="435" font-family="Georgia, serif" font-size="20" fill="#1B3A4B" text-anchor="middle" font-weight="bold">ABRATH</text>
+  <text x="686" y="455" font-family="Arial, sans-serif" font-size="10" fill="#1B3A4B" text-anchor="middle">compatível</text>
+
+  <!-- Nome da formadora -->
+  <text x="450" y="510" font-family="Georgia, serif" font-size="16" fill="#2D6A4F" text-anchor="middle" font-style="italic">com Rosangela Sousa</text>
+  <text x="450" y="530" font-family="Arial, sans-serif" font-size="11" fill="#1B3A4B" text-anchor="middle" opacity="0.7">Psicanalista · Neurocientista · Terapeuta Holística</text>
+
+  <!-- Ornamentos inferiores -->
+  <line x1="120" y1="548" x2="780" y2="548" stroke="#D4A373" stroke-width="0.5" opacity="0.4"/>
+  <line x1="100" y1="556" x2="800" y2="556" stroke="#2D6A4F" stroke-width="1" opacity="0.4"/>
+
+  <!-- Investimento -->
+  <rect x="355" y="565" width="190" height="26" rx="13" fill="#C9A84C" opacity="0.2"/>
+  <text x="450" y="583" font-family="Georgia, serif" font-size="14" fill="#C9A84C" text-anchor="middle" font-weight="bold">Investimento: R$ 1.497</text>
+</svg>
