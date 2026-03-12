@@ -384,7 +384,7 @@ function generateICSContent() {
     `DTSTART:${fmtICS(start)}`,
     `DTEND:${fmtICS(end)}`,
     `SUMMARY:Sessão com Rosangela Sousa — ${agendaState.service.nome}`,
-    `DESCRIPTION:Tipo: ${agendaState.service.nome}\\nModalidade: ${modalidade}\\nValor: ${agendaState.service.preco}\\n\\nPsicanalista Rosangela Sousa\\nContato: (11) 99999-9999`,
+    `DESCRIPTION:Tipo: ${agendaState.service.nome}\\nModalidade: ${modalidade}\\nValor: ${agendaState.service.preco}\\n\\nPsicanalista Rosangela Sousa\\nContato: (11) 99467-3421`,
     `LOCATION:${modalidade}`,
     'STATUS:TENTATIVE',
     'BEGIN:VALARM',
