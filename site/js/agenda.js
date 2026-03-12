@@ -12,7 +12,7 @@
    CONFIGURAÇÃO
 ───────────────────────────────────────── */
 const AGENDA_CONFIG = {
-  whatsappNumber: '5511999999999',
+  whatsappNumber: '5511994673421',
   workingHours: {
     1: { start: 8,  end: 19 },
     2: { start: 8,  end: 19 },
