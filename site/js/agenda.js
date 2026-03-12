@@ -315,7 +315,7 @@ function renderSummaryFull() {
     <div class="summary-row"><span>👤 Nome</span><strong>${u.nome || '—'}</strong></div>
     <div class="summary-row"><span>📧 E-mail</span><strong>${u.email || '—'}</strong></div>
     <div class="summary-row"><span>📱 WhatsApp</span><strong>${u.telefone || '—'}</strong></div>
-    <div class="summary-row"><span>🖥 Modalidade</span><strong>${u.modalidade === 'online' ? 'Online (videochamada)' : 'Presencial — São Paulo/SP'}</strong></div>
+    <div class="summary-row"><span>🖥 Modalidade</span><strong>${u.modalidade === 'online' ? 'Online (videochamada)' : 'Presencial — Santo André/SP'}</strong></div>
   `;
 }
 
@@ -338,12 +338,12 @@ function generateGoogleCalendarLink() {
   const title   = encodeURIComponent(`Sessão com Rosangela Sousa — ${agendaState.service.nome}`);
   const dates   = `${fmt(start)}/${fmt(end)}`;
   const details = encodeURIComponent(
-    `Tipo: ${agendaState.service.nome}\nModalidade: ${agendaState.userData.modalidade === 'online' ? 'Online (link será enviado por e-mail)' : 'Presencial — Pinheiros ou Consolação, São Paulo/SP'}\n\nPsicanalista Rosangela Sousa\nContato: rosangela@exemplo.com.br`
+    `Tipo: ${agendaState.service.nome}\nModalidade: ${agendaState.userData.modalidade === 'online' ? 'Online (link será enviado por e-mail)' : 'Presencial — Santo André/SP'}\n\nPsicanalista Rosangela Sousa\nContato: rosangela@exemplo.com.br`
   );
   const location = encodeURIComponent(
     agendaState.userData.modalidade === 'online'
       ? 'Online — link enviado por e-mail'
-      : 'Pinheiros / Consolação — São Paulo/SP (endereço confirmado após agendamento)'
+      : 'Santo André/SP (endereço confirmado após agendamento)'
   );
 
   return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dates}&details=${details}&location=${location}`;
@@ -370,7 +370,7 @@ function generateICSContent() {
 
   const modalidade = agendaState.userData.modalidade === 'online'
     ? 'Online — link enviado por e-mail'
-    : 'Presencial — Pinheiros/Consolação\\, São Paulo/SP';
+    : 'Presencial — Santo André/SP';
 
   return [
     'BEGIN:VCALENDAR',
