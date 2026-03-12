@@ -13,7 +13,7 @@
    CONFIGURAÇÃO GLOBAL
 ───────────────────────────────────────── */
 const CONFIG = {
-  whatsappNumber: '5511999999999',
+  whatsappNumber: '5511994673421',
   whatsappMessage: 'Olá, Rosangela! Gostaria de agendar uma sessão de descoberta gratuita.',
   scrollThreshold: 100,
   counterDuration: 2000,
